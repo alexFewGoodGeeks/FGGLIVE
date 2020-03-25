@@ -602,7 +602,7 @@ div#sci-bg {
     width: auto;
     height: auto;
     z-index: -100;
-    background: url(../images/background_images/sci_bg_01.jpg) no-repeat center center;
+    background: url(../images/background_images/image1.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -904,7 +904,7 @@ footer .social a{
     border: 1px solid #fff;
     outline: 0;
     color: #fff;
-    background: #df514c;
+    background: #d0726f;
 }
 
 /* ---------------------------------------------- */
@@ -989,6 +989,9 @@ footer .social a{
     .cogs {
         width: 45%;
     }
+    .carousel-caption h1 {
+        font-size: 3vw;
+    }
 }
 
 /* Media Queries [max-width:768px]
@@ -996,6 +999,9 @@ footer .social a{
 @media(max-width:768px) {
     .logo-tiny {
         height:54px;
+    }
+    .carousel-caption h1 {
+        font-size: 3vw;
     }
 }
 
@@ -1008,7 +1014,7 @@ footer .social a{
     }
 
     .carousel-caption h1 {
-        font-size: 25px;
+        font-size: 4vw;
     }
 
     .carousel-caption .intro-text {

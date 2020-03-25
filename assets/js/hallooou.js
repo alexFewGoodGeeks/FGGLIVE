@@ -199,7 +199,7 @@ $('.toggle').click(function() {
         itemsDesktop: [1024, 5], //4 items between 1000px and 901px
         itemsDesktopSmall: [900, 4], // betweem 900px and 601px
         itemsTablet: [600, 3], //2 items between 600 and 480
-        itemsMobile: [479, 1], //1 item between 480 and 0
+        itemsMobile: [479, 2], //1 item between 480 and 0
         pagination: false, // Show pagination
         navigation: false, // Show navigation
         autoPlay: 2000,
@@ -213,7 +213,7 @@ $('.toggle').click(function() {
         itemsDesktop: [1024, 4], //4 items between 1000px and 901px
         itemsDesktopSmall: [900, 4], // betweem 900px and 601px
         itemsTablet: [600, 3], //2 items between 600 and 480
-        itemsMobile: [479, 1], //1 item between 480 and 0
+        itemsMobile: [479, 2], //1 item between 480 and 0
         pagination: false, // Show pagination
         navigation: false, // Show navigation
         autoPlay: 2000,

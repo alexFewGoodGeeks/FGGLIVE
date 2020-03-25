@@ -367,6 +367,13 @@ blockquote span{
     color: #fff;
 }
 
+a.anchor{
+    display: block; 
+    position: relative; 
+    top: -70px; 
+    visibility: hidden;
+}
+
 
 /* Custom overlay navigation
 /* ---------------------------------------------- */
@@ -547,7 +554,7 @@ blockquote span{
 
 .carousel-caption{
     text-shadow: none;
-    bottom: 25%;
+    bottom: 33.5%;
 }
 
 .carousel-caption h1{
@@ -773,7 +780,7 @@ video#html5-video {
     z-index: -100;
     /*-webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);*/
-    background: url(../images/background_images/home_bg_dots.jpg) no-repeat center center scroll;
+    background: url(../images/background_images/bg2.png) no-repeat center center scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -822,6 +829,9 @@ video {
 @media (min-width: 1441px) {
   .cogs {
     width: 50%;
+  }
+  .products {
+    background-position: 0 35% !important;
   }
 }
 
@@ -923,6 +933,18 @@ video {
     margin: 0;
 }
 
+.whatWeDo2{
+    margin: 5px 0 !important;
+}
+
+.whatWeDo3{
+    padding: 10px 0 !important;
+}
+
+.whatWeDo3-p{
+    padding-bottom: 25px !important;
+}
+
 .services-item:hover{
     background:rgba(128,0,0, 1); /* Primary color, can be changed via colors.css */
      -webkit-transition: background .2s ease-in-out;
@@ -968,11 +990,12 @@ video {
 .products{
     width: 100%;
     background: #222;
-    background: url(../images/background_images/CoreValues.jpg) 50% 0 no-repeat scroll;
+    background: url(../images/background_images/CoreValuesExtended.jpg) 50% 0 no-repeat scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
             background-size: cover;
          -o-background-size: cover;
+    padding-bottom: 10em;
 }
 
 .products-container p{
@@ -1171,7 +1194,7 @@ video {
 }
 .project-info h3 {
     line-height: 18px;
-    color: #fff;
+    color: maroon;
 }
 ul.project-meta {
     margin: 0;
@@ -1180,16 +1203,24 @@ ul.project-meta {
 
 ul.project-meta li{
     display: inline-block;
-    padding:5px 10px;
-    border: 1px solid #fff;
+    border: 1.5px solid maroon;
+    background-color: transparent;
+}
+
+ul.project-meta li:hover{
+    border: 1.5px solid maroon;
+    background-color: maroon;
 }
 
 ul.project-meta li a{
     display: inline-block;
-    color: #fff;
+    color: maroon;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding:5px 10px;
 }
 ul.project-meta li a:hover{
-    color: #f76758;
+    color: #fff;
 }
 
 .full-project {
@@ -1222,11 +1253,15 @@ ul.project-meta li a:hover{
     line-height: 20px;
 }
 
+.testimonials-carousel .owl-theme .owl-controls .owl-page span{
+    background:#fff;
+}
+
 /* Overlay and hover effect
 /* ---------------------------------------------- */
 .recent-project::before {
     content: "";
-    background: rgba(59,59,59,0.8);
+    background: rgba(255, 255, 255, 0.9);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1765,7 +1800,7 @@ span.count-description {
     padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
-    background: url(../images/background_images/bck-helsinki.jpg) 50% 0 no-repeat scroll;
+    background: url(../images/background_images/office.jpg) 50% 0 no-repeat scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
             background-size: cover;
@@ -1787,7 +1822,8 @@ span.count-description {
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
             border-radius: 10px;
-	cursor: pointer;
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .testimonials p.speech:before{
@@ -1814,6 +1850,7 @@ span.count-description {
 
 .client-info{
     padding: 0px;
+    opacity: 0.8;
 }
 
 .client-info a{
@@ -1934,7 +1971,8 @@ footer .social a{
     border: 1px solid #fff; /* Hover border color, can be changed via colors.css */
     outline: 0;
     color: #fff;
-    background: #df514c; /* Hover color, can be changed via colors.css */
+    /* background: #df514c; Hover color, can be changed via colors.css */
+    background: #d0726f;
 }
 
 
@@ -2101,7 +2139,8 @@ footer .social a{
     border: 1px solid #fff; /* Hover border color, can be changed via colors.css */
     outline: 0;
     color: #fff;
-    background: #df514c; /* Hover color, can be changed via colors.css */
+    /* background: #df514c; Hover color, can be changed via colors.css */
+    background: #d0726f;
 }
 
 
@@ -2451,6 +2490,14 @@ footer .social a{
     
     .tech-custom-carousel2 .tech-project p {
         left:-8px;
+    }
+    
+    a.anchor {
+        top: -50px;
+    }
+
+    .tech-container {
+        padding-left: 0px;
     }
 
 }
