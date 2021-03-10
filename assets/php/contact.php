@@ -3,18 +3,18 @@ header('Content-type: application/json');
 
 if($_POST)
 {
-    $to_email       = "contact@fewgoodgeeks.com"; //Recipient email, Replace with own email here
+    $to_email       = "contact@fewgoodgeeks.com"; //Recipient email, Replace with own email here 
    
     //check if its an ajax request, exit if not
-    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+   /* if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
        
         $output = json_encode(array( //create JSON data
             'type'=>'error',
             'text' => 'Sorry Request must be Ajax POST'
         ));
         die($output); //exit script outputting json data
-    }
-
+		}
+	*/
     //Sanitize input data using PHP filter_var().
     $user_name      = filter_var($_POST["name"],    FILTER_SANITIZE_STRING);
     $user_email     = filter_var($_POST["email"],   FILTER_SANITIZE_EMAIL);
@@ -50,7 +50,7 @@ if($_POST)
     $message_body = $message."\r\n\r\n-".$user_name."\r\n\r\nEmail : ".$user_email."\r\nPhone Number : ". $phone_number ;
    
     //proceed with PHP email.
-    $headers = 'From: '.$user_name.'<'.$user_email.'>'."\r\n" .
+    $headers = 'From: '.$user_name.'<contact@fgg.com>'."\r\n" .
     'Reply-To: '.$user_name.'<'.$user_email.'>' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
    
