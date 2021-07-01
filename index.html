@@ -857,7 +857,7 @@
                             </div>
 
                         </div>
-
+						<script src="https://www.google.com/recaptcha/api.js" async defer></script>
                         <div class="col-md-8 col-sm-12 col-xs-12 contact-form">
                             <h3>Drop us a line</h3>
                             <form class="ajax-form" id="contactForm" method="post" action="assets/php/contact.php">
@@ -872,6 +872,9 @@
                                 </div>
                                 <div class="form-group">
                                     <textarea class="form-control" rows="4" name="message" placeholder="Your message..." required></textarea>
+                                </div>
+								<div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6Le_eGobAAAAACifHYSxNXd1YdzgRYoPeRzBYRg9"></div>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" name="submit" class="btn btn-default"><i class="fa fa-paper-plane fa-fw"></i> Send</button>

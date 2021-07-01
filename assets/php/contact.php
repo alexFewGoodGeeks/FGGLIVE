@@ -4,7 +4,7 @@ header('Content-type: application/json');
 if($_POST)
 {
     $to_email       = "contact@fewgoodgeeks.com"; //Recipient email, Replace with own email here 
-   
+	 
     //check if its an ajax request, exit if not
    /* if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
        
@@ -20,9 +20,22 @@ if($_POST)
     $user_email     = filter_var($_POST["email"],   FILTER_SANITIZE_EMAIL);
     $phone_number   = filter_var($_POST["phone"],   FILTER_SANITIZE_NUMBER_INT);
     $message        = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
+	$recaptchaResponse = $_POST['g-recaptcha-response'];
 
-    //additional php validation
-    if(strlen($user_name)<4){ // If length is less than 4 it will output JSON error.
+	$secretKey = '6Le_eGobAAAAABkHecfwJnnCjoN1ugWe00LK4nRV';
+	$request = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$recaptchaResponse);
+	$obj = json_decode($request);
+	if($obj->success == true)
+	{
+		//all ok
+	}else{
+		//error handling
+		$output = json_encode(array('type'=>'error', 'text' => 'You did not complete the captcha.'));
+		die($output);
+	}
+	
+	//additional php validation
+	if(strlen($user_name)<4){ // If length is less than 4 it will output JSON error.
         $output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!'));
         die($output);
     }
@@ -42,7 +55,8 @@ if($_POST)
         $output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
         die($output);
     }
-
+	
+	
     //email subject
     $subject ='New mail via contact form';
 
