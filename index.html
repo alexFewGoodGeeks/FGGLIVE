@@ -62,7 +62,7 @@
             <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
                 <div class="container">
                     <div class="navbar-header pull-left">
-                        <a class="navbar-brand page-scroll" href="#page-top">
+                        <a class="navbar-brand page-scroll" href="index.html">
                             <!-- place for logo/text -->
                             <span class="brand-logo">
                             <img src="assets/images/FGGLogoMain.png" onerror="this.src='assets/images/FGGLogoMain.png'; this.onerror=null;" alt="GEEKS provide a universal FIX, everything we touch simply CLICKS." title="" class="logo-tiny"/></span>
@@ -920,7 +920,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                &copy; 2020 FewGoodGeeks. All rights reserved.
+                                &copy; 2021 FewGoodGeeks. All rights reserved.
                             </div>
 
                         </div>
@@ -965,6 +965,16 @@
 		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 		ga('create', 'UA-85086862-1', 'auto');
 		ga('send', 'pageview');
+
+
+        $(window).load(function() {
+            $('.letter-jump').each(function(index) {
+                $(this).delay(500 + (index * 50)).queue(function() {
+                    $(this).addClass("animated").dequeue();
+                });
+            });
+        });
+        
 	</script>
 	
 </body>

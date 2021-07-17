@@ -29,6 +29,48 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <style>
+        .form-group{
+           padding: 5px 0; 
+           min-height: 100%;
+       }
+
+       .form-control {
+           box-sizing: border-box;
+           height: 42px;
+           margin-bottom: 0; 
+           padding: 0 10px; 
+           border-radius: 0; 
+           min-width: 100%; 
+           font-size: 16px; 
+           display: block; 
+           width: 100%; 
+           line-height: 1.42857143;
+       }
+
+       .btn-default {
+            color: #fff;
+            border: 1px solid rgba(128,0,0, 1);
+            background: rgba(128,0,0, 1);
+            border-radius: 0;
+            padding: 10px 30px;
+            text-transform: none;
+            font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 100;
+            transition: all .3s ease-in-out;
+        }
+
+        .btn-default:hover {
+            border: 1px solid #fff;
+            outline: 0;
+            color: #fff;
+            background: #d0726f;
+        }
+
+
+
+   </style>
 </head>
 
 <body id="home">
@@ -155,13 +197,87 @@
                 </div>
             </section>
 
+            <hr style="background-color: #800000; height: 1px;">
+
             <!-- Footer -->
             <footer>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-12 segment">
+                            <h2>
+                                <img src="assets/images/FGG-logo-thumbnail.jpg" height="600" width="274" onerror="this.src='assets/images/FGG_Logo_End.png'; this.onerror=null;" alt="GEEKS provide a universal FIX, everything we touch simply CLICKS." title="" class="img-responsive final-logo">
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <a class="anchor" id="contact" style="display: block; position: relative; top: -70px; visibility: hidden;"></a>
+                <section class="contact content-section no-bottom-pad" style="padding: 50px 0; z-index: 1; padding-top: 0;">
+                    <div class="container" style="padding: 0;">
+                        <div class="form-container" style="display: block;">
+
+                            <div class="col-md-4 col-sm-12 contact-section" style="display: inline-block; float: right; text-align: center; padding-top: 50px;">
+                                
+                                <div class="pull-left col-md-12 col-sm-12 col-xs-12">
+                                    <h3 style="color: black; margin-bottom: 0;"><b>Address</b></h3>
+                                    <h3>Metsälinnunreitti 2, J097,
+                                        <br />02660, Espoo
+                                        <br />Finland</h3>
+                                </div>
+                                
+                                <div class="col-md-12 col-sm-12 col-xs-12 contact-address">
+                                    <h3 style="color: black; margin-bottom: 0;"><b>Email</b></h3>
+                                    <h3>contact@fewgoodgeeks.com</h3>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12 col-xs-12 contact-address">
+                                    <h3 style="color: black; margin-bottom: 0;"><b>Phone</b></h3>
+                                    <h3>+389 70 259 251</h3>
+                                </div>
+
+                                <div class="col-md-12 col-xs-12 social segment">
+                                    <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                    <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank" style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-8 col-sm-12 col-xs-12 contact-form" style="padding-top: 10px;display: inline-block;">
+                                <h3>Drop us a line</h3>
+                                <form class="ajax-form" id="contactForm" method="post" action="assets/php/contact.php">
+                                    <div class="form-group" style="">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name..." value="" required style="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email..." value="" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="phone" class="form-control" id="phone" name="phone" placeholder="Your phone..." value="" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="4" name="message" placeholder="Your message..." required style="padding: 20px 10px; padding-top: 10px;"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" name="submit" class="btn btn-default" style="min-width: 100%; display: inline-block;
+                                        min-height: 100%; font-size: 20px;"><i class="fa fa-paper-plane fa-fw"></i> Send</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+
+
+            
                 <div class="copynote">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12 text-center">
-                                &copy; 2020 FewGoodGeeks. All rights reserved.
+                            <div class="col-md-12 text-center white">
+                                &copy; 2021 FewGoodGeeks. All rights reserved.
                             </div>
 
                         </div>
@@ -185,7 +301,19 @@
 
     <!-- Custom JavaScript -->
     <script src="assets/js/meet.min.js"></script>
-	
+    
+    <script>
+
+        $(window).load(function() {
+            $('.letter-jump').each(function(index) {
+                $(this).delay(500 + (index * 50)).queue(function() {
+                    $(this).addClass("animated").dequeue();
+                });
+            });
+        });
+        
+	</script>        
+
 </body>
 
 </html>
