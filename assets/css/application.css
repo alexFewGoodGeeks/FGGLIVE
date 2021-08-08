@@ -19,11 +19,12 @@
 #sci_design {
   background: url("../images/background_images/SciDesign.jpg");
   background-size: cover;
-  height: 63%;
+  height: 100%;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   padding: 30px;
+  margin-top: 30px;
 }
 #sci_design .text-center {
   display: flex;
@@ -32,19 +33,23 @@
   background-color: white;
   opacity: 0.5;
   padding: 30px 20px 30px 20px;
+  margin-bottom: 30px;
 }
-.splide__track {
+.home-demo .item {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
+}
+.home-demo img {
+  padding: 5rem 0;
+  margin: 0;
 }
 .services {
   background: url("../images/background_images/CoreValues.jpg");
   background-size: cover;
   background-attachment: fixed;
   margin-top: 40px;
-  height: 60%;
+  height: 100%;
 }
 .services .text-center h2,
 .services .text-center h3 {
