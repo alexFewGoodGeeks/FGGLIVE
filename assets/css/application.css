@@ -2,6 +2,12 @@
   background-color: red;
   width: 100%;
 }
+.navbar {
+  background-color: white;
+}
+.navbar .pull-right .toggle span {
+  background-color: black !important;
+}
 .hero-image {
   background: url("../images/background_images/HeroImgFGG.png");
   background-size: cover;
@@ -35,23 +41,53 @@
   padding: 30px 20px 30px 20px;
   margin-bottom: 30px;
 }
-.home-demo .item {
+#our-projects {
+  margin: 90px auto;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home-demo img {
-  padding: 5rem 0;
-  margin: 0;
+#our-projects .slick-prev:before,
+#our-projects .slick-next:before {
+  color: red;
 }
 .services {
   background: url("../images/background_images/CoreValues.jpg");
   background-size: cover;
   background-attachment: fixed;
   margin-top: 40px;
-  height: 100%;
+  height: 70%;
 }
 .services .text-center h2,
 .services .text-center h3 {
   color: white;
+}
+footer {
+  background-color: white;
+}
+footer .contact-address h3 {
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+}
+footer .contact-address p,
+footer .contact-address li {
+  color: #800000;
+  font-size: 20px;
+  text-align: center;
+}
+.logo-footer {
+  text-align: center;
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+}
+.footer-img img {
+  background-size: cover;
+}
+.footer-hr {
+  margin-top: 0;
 }

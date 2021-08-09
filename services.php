@@ -3,7 +3,10 @@
 <section class="services content-section">
     <div class="container">
         <div class="row text-center">
-
+        <div class="col-md-12 text-center">
+            <h2>WHAT WE DO</h2>
+            <h3 class="caption gray">“You cannot create experience. You must undergo it”</h3>
+        </div>
 
             <div class="container">
                 <div class="row text-center">
@@ -485,14 +488,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-12 text-center">
-                <h2>What we do</h2>
-                <h3 class="caption gray">“You cannot create experience. You must undergo it”</h3>
-            </div>
-
         </div>
-
-
     </div>
 </section>

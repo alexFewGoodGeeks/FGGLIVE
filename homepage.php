@@ -30,10 +30,14 @@
     <!-- Slider CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 
-  
+
 
     <!-- Main stylesheet -->
     <link href="assets/css/hallooou.min.css" rel="stylesheet">
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css" />
 
     <!-- Plugin stylesheets -->
     <link href="assets/css/plugins/owl.carousel.min.css" rel="stylesheet">
@@ -82,7 +86,7 @@
                 <a class="navbar-brand page-scroll" href="index.html">
                     <!-- place for logo/text -->
                     <span class="brand-logo">
-                        <img src="assets/images/FGGLogoMain.png"
+                        <img src="assets/images/logo-black.png"
                             onerror="this.src='assets/images/FGGLogoMain.png'; this.onerror=null;"
                             alt="GEEKS provide a universal FIX, everything we touch simply CLICKS." title=""
                             class="logo-tiny" /></span>
@@ -191,12 +195,13 @@
                         <div class="media-body">
                             <h3 class="media-heading"><b>TRUST</b></h3>
                             <p>Trust is a premier core value that our geeky gang is abidingly and unambiguously
-                                dedicated to. 
+                                dedicated to.
                                 <!-- Establishing trustworthy relationships is a long and laborious process
                                 that cannot be circumvented, there is no shortcut, no alternative way. We truly strive
                                 to stay completely honest, committed and deliverable to our collaborating partners. The
                                 feeling that your fellow Geek will never let you down is impeccable. Therefore, we are
-                                constantly seeking to provide such a privilege.--></p> 
+                                constantly seeking to provide such a privilege.-->
+                            </p>
                         </div>
                     </div>
 
@@ -236,7 +241,7 @@
         include "projects.php";
     ?>
 
-    
+
 
 
     <!-- Science Design section -->
@@ -261,105 +266,13 @@
         include "services.php";
     ?>
 
-    <!-- Our Clients Section -->
-    <!-- <a class="anchor" id="testimonials"></a>
-    <section class="testimonials content-section">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h2>Some of our Recent Work</h2>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 testimonials-carousel">
-                            <div class="client-testimonials owl-carousel owl-theme">
-
-                                <div class="item">
-                                    <p class="speech"><b>Challenge:</b> Being a highly successful business information
-                                        aggregation company, a Swiss client decided to change and improve their digital
-                                        appearance. They turned to the geeks with a request for a highly skilled front
-                                        end developer and an exceptional web designer who would capture the essence of
-                                        their ideology and business prowess and successfully encapsulate all that in a
-                                        masterfully created web site.
-                                        <br><b>Solution:</b> The detailed conversations with the client led us to a
-                                        complete understanding of the company’s business culture and their highly
-                                        professional criteria. Our immediate response to their request was to comb
-                                        through our resources of developers and utilize our capacity in Macedonia,
-                                        while, simultaneously, mapping out unusually skillful designers in the Balkan
-                                        area. After sifting through the initial 100 identified potential options, we
-                                        reduced the list down to only 3 developer and 4 designer candidates. The client
-                                        was impressed with the geeks we offered which led to a continual business
-                                        relationship. <br>
-                                    </p>
-                                    <div class="client-info">
-                                        <img class="geek_icons_cases" src="assets/images/geek_icons/Use_Cases_0.png"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <p class="speech"><b>Challenge:</b> We were approached by a Swedish client who was
-                                        having difficulties in finding a senior .Net developers who would truly
-                                        synergize with their vision and be the driving factor towards that vision.
-                                        <br><b>Solution:</b>We proposed a multi-channel search strategy of various
-                                        sources including private candidate databases, industry networks, seminars, the
-                                        web and other relevant sources.
-                                        As with all other missions, what is paramount to us is to stay completely
-                                        dedicated and thorough throughout the recruitment process in order to find the
-                                        perfect match. In this case, that meant rooting out all important information
-                                        regarding both technical skills and personal characteristics that the client was
-                                        looking for while at the same time discovering the main motivating factor for
-                                        the employee.
-                                        With our help, the client was able to put all their efforts on their core
-                                        business while we concentrated on supplying them.
-                                        The mapping and distilling was greatly complemented by our team’s broad business
-                                        knowledge and their enthusiasm and dedication to the project.
-                                        In 3 months, we were able to pinpoint and deliver several senior geeks and
-                                        engaged on time and material model with the client. We were able to maximize
-                                        effectiveness by delivering carefully selected and highly relevant targets to
-                                        the client.<br>
-                                    </p>
-                                    <div class="client-info">
-                                        <img class="geek_icons_cases" src="assets/images/geek_icons/Use_Cases_1.png"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <p class="speech"><b>Challenge:</b> The client had a long process for employing IT
-                                        resources with experience in exotic technologies. Considering the market demand
-                                        for these types of resources the client had a huge overhead in HR processes and
-                                        long recruitment processes while having difficulties in finding compatible
-                                        profiles.
-                                        <br><b>Solution:</b> By using our staffing services the client managed to cut
-                                        the HR cost by more than half. The highly developed network, FewGoodGeeks has in
-                                        the job market for IT resources with experience in niche technologies, was fully
-                                        utilized in delivering high quality profiles.<br>
-                                    </p>
-                                    <div class="client-info">
-                                        <img class="geek_icons_cases" src="assets/images/geek_icons/Use_Cases_2.png"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-
     <!-- Partners Section -->
     <a class="anchor" id="partners"></a>
     <section class="portfolio content-section parallax">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-12">
-                    <h2>Meet Our Partners</h2>
+                    <h2>MEET OUR PARTNERS</h2>
                 </div>
             </div>
         </div>
@@ -448,138 +361,67 @@
         </div>
     </section>
 
-    <!-- Join Us section -->
-    <section id="join-us" class="contact content-section">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h2><b>Join Us</b></h2>
-                    <h3 class="caption gray">Do you think you are a perfect fit for the next piece of our puzzle?</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-xs-12 col-md-push-4 join-form">
-                    <div class="form-group">
-                        <a href="join_us.html" class="btn btn-default"><i class="fa fa-puzzle-piece fa-fw"></i>
-                            Available positions</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="footer-img">
+        <img src="assets/images/background_images/above-footer.png" alt="footer img">
     </section>
 
-    <!-- Contact section -->
-    <a class="anchor" id="contact"></a>
-    <section class="contact content-section no-bottom-pad">
-        <div class="container">
-            <div class="row form-container">
+    <hr class="footer-hr" style="height:2px;border:none;color:rgba(128,0,0,1);background-color:rgba(128,0,0,1)">
 
-                <div class="col-md-4 col-sm-12 contact-section">
-
-                    <div class="pull-left col-md-12 col-sm-6">
-                        <h2><b>Contact</b></h2>
-                        <h3 class="caption gray">Feel free to get in touch with us if you have a new project or simply
-                            something awesome to say</h3>
-                    </div>
-
-                    <div class="col-md-12 col-sm-6 contact-address">
-                        <h3>Our address</h3>
-                        <p>Metsälinnunreitti 2, J097,
-                            <br />02660, Espoo
-                            <br />Finland
-                        </p>
-                        <ul>
-                            <li><span>Email:</span>contact@fewgoodgeeks.com</li>
-                            <li><span>Phone:</span>+389 70 259 251</li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="col-md-8 col-sm-12 col-xs-12 contact-form">
-                    <h3>Drop us a line</h3>
-                    <form class="ajax-form" id="contactForm" method="post" action="assets/php/contact.php">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name..."
-                                value="" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Your email..."
-                                value="" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Your phone..."
-                                value="" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" rows="4" name="message" placeholder="Your message..."
-                                required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-default"><i
-                                    class="fa fa-paper-plane fa-fw"></i> Send</button>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Google Maps - currently unavailable -->
-        <!-- <div class="container-fluid buffer-forty-top">
-                    <div class="row">
-                        <section id="cd-google-map no-bottom-pad">
-                            <div id="google-container"></div>
-                            <div id="cd-zoom-in"></div>
-                            <div id="cd-zoom-out"></div>
-                        </section>
-                    </div>
-                </div> -->
-    </section>
-
-    <!-- Footer -->
+    <!-- Footer contact section -->
     <footer>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 segment">
-                    <h2>
-                        <img src="assets/images/FGGLogoMain.png" height="600" width="274"
-                            onerror="this.src='assets/images/FGG_Logo_End.png'; this.onerror=null;"
-                            alt="GEEKS provide a universal FIX, everything we touch simply CLICKS." title=""
-                            class="img-responsive final-logo">
-                    </h2>
-                    <p class="white">We believe in Simple, Creative &amp; Flexible Code Standards.</p>
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-12 social segment">
-                    <h4>Stay Connected</h4>
-                    <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"><i
-                            class="fa fa-linkedin fa-3x"></i></a>
-                    <a href="https://www.facebook.com/FewGoodGeeks" target="_blank"><i
-                            class="fa fa-facebook fa-3x"></i></a>
-                </div>
-            </div>
-
+        <div class="logo-footer">
+        <img src="assets/images/logo-black.png">
         </div>
-
-        <div class="copynote">
+        <a class="anchor" id="contact"></a>
+        <section class="contact content-section no-bottom-pad">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        &copy; 2021 FewGoodGeeks. All rights reserved.
+                <div class="row form-container">
+                    <div class="col-md-4 col-sm-12 contact-section">
+                        <div class="col-md-12 col-sm-6 contact-address">
+                            <h3>Our address</h3>
+                            <p>Metsälinnunreitti 2, J097,
+                                <br />02660, Espoo
+                                <br />Finland
+                            </p>
+                            <ul>
+                                <li><span>Email:</span><br>contact@fewgoodgeeks.com</li>
+                                <li><span>Phone:</span></br>+389 70 259 251</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 col-sm-12 col-xs-12 contact-form">
+                        <h3>Drop us a line</h3>
+                        <form class="ajax-form" id="contactForm" method="post" action="assets/php/contact.php">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name..."
+                                    value="" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Your email..." value="" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="phone" class="form-control" id="phone" name="phone"
+                                    placeholder="Your phone..." value="" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4" name="message" placeholder="Your message..."
+                                    required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" name="submit" class="btn btn-default"><i
+                                        class="fa fa-paper-plane fa-fw"></i> Send</button>
+                            </div>
+                        </form>
                     </div>
 
                 </div>
             </div>
-        </div>
-
-        <div class="nav pull-right scroll-top">
-            <a href="#home" title="Scroll to top"><i class="fa fa-angle-up"></i></a>
-        </div>
-
+        </section>
     </footer>
+    <!-- Footer -->
+
 
 
     <!-- jQuery -->
@@ -591,6 +433,7 @@
     <!-- Plugin JavaScript -->
     <script src="assets/js/plugins/wow.min.js"></script>
     <script src="assets/js/plugins/owl.carousel.min.js"></script>
+
     <script src="assets/js/plugins/jquery.parallax-1.1.3.min.js"></script>
     <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/plugins/jquery.mb.YTPlayer.min.js"></script>
@@ -602,36 +445,41 @@
     <script src="assets/js/plugins/additional-methods.min.js"></script>
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoVKfEihX__NdMwdDysA6Vve6PE9Ierj4"></script> -->
 
+    <!-- Slick Carousel -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <!-- Slider -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-
-
     <!-- Custom JavaScript -->
     <script src="assets/js/hallooou.min.js"></script>
     <script src="assets/js/scripts.js"></script>
 
-     <!-- <script src="assets/js/hallooou.js"></script> -->
+    <!-- <script src="assets/js/hallooou.js"></script> -->
 
     <!-- GoogleAnalytics Script -->
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-85086862-1', 'auto');
-        ga('send', 'pageview');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-85086862-1', 'auto');
+    ga('send', 'pageview');
 
 
-        $(window).load(function () {
-            $('.letter-jump').each(function (index) {
-                $(this).delay(500 + (index * 50)).queue(function () {
-                    $(this).addClass("animated").dequeue();
-                });
+    $(window).load(function() {
+        $('.letter-jump').each(function(index) {
+            $(this).delay(500 + (index * 50)).queue(function() {
+                $(this).addClass("animated").dequeue();
             });
         });
-
+    });
     </script>
 
 </body>
