@@ -52,6 +52,9 @@
 #our-projects .slick-next:before {
   color: red;
 }
+.fix-width {
+  right: -5%;
+}
 .services {
   background: url("../images/background_images/CoreValues.jpg");
   background-size: cover;
@@ -66,11 +69,13 @@
 footer {
   background-color: white;
 }
-footer .contact-address h3 {
+footer .contact-address {
+  line-height: 33px;
+}
+footer .contact-address ul li span {
   color: black;
   font-weight: 800;
   font-size: 20px;
-  text-align: center;
 }
 footer .contact-address p,
 footer .contact-address li {
@@ -90,4 +95,37 @@ footer .contact-address li {
 }
 .footer-hr {
   margin-top: 0;
+}
+.contact-form h3 {
+  font-weight: 800;
+}
+.project-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #800000;
+  padding-top: 20px;
+}
+.project-1 .project-title {
+  text-align: center;
+}
+.project-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #800000;
+  padding-top: 20px;
+}
+.project-2 .project-title {
+  text-align: center;
+}
+.project-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #800000;
+  padding-top: 20px;
+}
+.project-3 .project-title {
+  text-align: center;
 }

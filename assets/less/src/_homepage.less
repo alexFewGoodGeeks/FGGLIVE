@@ -72,8 +72,16 @@
     .slick-prev:before, .slick-next:before {
     color: red;
     }
+
+    // .slick-track{
+    //     transform: none !important;
+    // }
 }
 
+.fix-width {
+    //transform: translate3d(3%, 0px, 0px) !important;
+    right: -5%;
+}
 
 // Services
 .services{
@@ -94,12 +102,15 @@
 footer{
     background-color: white;
     .contact-address{
-        h3{
-            color: black;
-            font-weight: 800;
-            font-size: 20px;
-            text-align: center;
-
+        line-height: 33px;
+        ul{
+            li{
+                span{
+                    color: black;
+                    font-weight: 800;
+                    font-size: 20px;
+                }
+            }
         }
         p, li{
             color: @dark-red-color;
@@ -126,3 +137,46 @@ footer{
     margin-top: 0;
 }
 
+.contact-form{
+    h3{
+        font-weight: 800;
+    }
+}
+
+
+// Projects Boxes
+.project-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed @dark-red-color;
+    padding-top: 20px;
+
+    .project-title{
+        text-align: center;
+    }
+}
+
+.project-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed @dark-red-color;
+    padding-top: 20px;
+
+    .project-title{
+        text-align: center;
+    }
+}
+
+.project-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed @dark-red-color;
+    padding-top: 20px;
+
+    .project-title{
+        text-align: center;
+    }
+}

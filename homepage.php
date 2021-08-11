@@ -140,7 +140,7 @@
                         <span class="letter-jump">s</span>
                     </h1>
                     <p class="intro-text animated slideInUp"><b>GEEKS</b> provide a universal <b>FIX</b>, everything we
-                        touch simply <b>CLICKS &#x1f609;</b></p>
+                        touch simply <b>CLICKS!</b></p>
                 </div>
             </div>
         </div>
@@ -240,9 +240,6 @@
     <?php 
         include "projects.php";
     ?>
-
-
-
 
     <!-- Science Design section -->
     <section id="sci_design" class="contact content-section">
@@ -376,21 +373,17 @@
         <section class="contact content-section no-bottom-pad">
             <div class="container">
                 <div class="row form-container">
-                    <div class="col-md-4 col-sm-12 contact-section">
+                    <div class="col-md-6 col-sm-12 contact-section">
                         <div class="col-md-12 col-sm-6 contact-address">
-                            <h3>Our address</h3>
-                            <p>Metsälinnunreitti 2, J097,
-                                <br />02660, Espoo
-                                <br />Finland
-                            </p>
                             <ul>
+                                <li><span>Address:</span><br>Metsälinnunreitti 2, J097, <br> 02660, Espoo <br> Finland</li>
                                 <li><span>Email:</span><br>contact@fewgoodgeeks.com</li>
                                 <li><span>Phone:</span></br>+389 70 259 251</li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-md-8 col-sm-12 col-xs-12 contact-form">
+                    <div class="col-md-6 col-sm-12 col-xs-12 contact-form">
                         <h3>Drop us a line</h3>
                         <form class="ajax-form" id="contactForm" method="post" action="assets/php/contact.php">
                             <div class="form-group">
@@ -420,7 +413,7 @@
             </div>
         </section>
     </footer>
-    <!-- Footer -->
+    <!-- EOF Footer -->
 
 
 
