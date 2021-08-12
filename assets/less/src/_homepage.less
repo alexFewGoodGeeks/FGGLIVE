@@ -54,7 +54,7 @@
         justify-content: center;
         align-items: center;
         background-color: white;
-        opacity: 0.5;
+        background: rgba(255, 255, 255, 0.5);
         padding: 30px 20px 30px 20px;
         margin-bottom: 30px;
     }
@@ -68,6 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     .slick-prev:before, .slick-next:before {
     color: red;
@@ -89,7 +90,7 @@
     background-size: cover;
     background-attachment: fixed;
     margin-top: 40px;
-    height: 70%;
+    // height: 103%;
 
     .text-center{
         h2, h3{
@@ -180,3 +181,226 @@ footer{
         text-align: center;
     }
 }
+
+// Services Boxes
+.left-part{
+    border-right: 1px solid @dark-red-color;
+    position: absolute;
+    left: 0;
+    height: 488px;
+
+    .left-parent{
+       top: 120px; 
+    }
+
+    .ant-img{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 43px;
+        right: 4px;
+    }
+
+    .circle{
+        background-color: @dark-red-color;
+        border: none;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: -30px;
+        top: 44px;
+    }
+
+    .text{
+        background-color: white;
+        // opacity: 0.5;
+        background: rgba(255, 255, 255, 0.5);
+        color: @dark-red-color;
+        font-weight: bolder !important;
+        width: 93%;
+        padding: 1px;
+
+        p{
+            margin: 0;
+            padding: 5px;
+        }
+    }
+}
+
+.left-part-2{
+    position: absolute;
+    left: 0;
+
+    .left-parent-2{
+       top: 325px; 
+    }
+
+    .circle{
+        background-color: @dark-red-color;
+        border: none;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: -30px;
+        top: 64px;
+    }
+
+    .ant-img{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 61px;
+        right: 4px;
+    }
+
+    .text{
+        background-color: white;
+        background: rgba(255, 255, 255, 0.5);
+        color: @dark-red-color;
+        font-weight: bolder !important;
+        width: 93%;
+        padding: 1px;
+
+        p{
+            margin: 0;
+            padding: 5px;
+        }
+    }
+}
+
+
+.services-section{
+    position: relative;
+}
+
+
+.right-part{
+    position: absolute;
+    right: 0;
+
+    .right-parent{
+        top: 20px;
+    }
+
+    .circle{
+        background-color: @dark-red-color;
+        border: none;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -30px;
+        top: 44px;
+    }
+
+    .ant-img{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 42px;
+        left: 4px;
+        transform: scaleX(-1);
+    }
+
+    .text{
+        background-color: white;
+        background: rgba(255, 255, 255, 0.5);
+        color: @dark-red-color;
+        font-weight: bolder !important;
+        width: 93%;
+        float: right;
+
+        p{
+            margin: 0;
+            padding: 5px;
+        }
+    }
+}
+
+.right-part-2{
+    position: absolute;
+    right: 0;
+
+    .right-parent-2{
+        top: 235px;
+    }
+
+    .circle{
+        background-color: @dark-red-color;
+        border: none;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -30px;
+        top: 44px;
+    }
+
+    .ant-img{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 47px;
+        left: 4px;
+        transform: scaleX(-1);
+    }
+
+    .text{
+        background-color: white;
+        background: rgba(255, 255, 255, 0.5);
+        color: @dark-red-color;
+        font-weight: bolder !important;
+        width: 93%;
+        float: right;
+
+        p{
+            margin: 0;
+            padding: 5px;
+        }
+    }
+}
+
+.fixed-height{
+    height: 1000px;	
+}
+
+// .box-left-out {
+//     position: absolute;
+//     left: -200px;
+// }
+// .box-left-in {
+//     left: 0;
+//     transition: all 4s;
+
+// }
+
+
+// Animation
+.slideDown{
+	animation-name: slideDown;	
+	animation-duration: 2s;	
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;						
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+
+

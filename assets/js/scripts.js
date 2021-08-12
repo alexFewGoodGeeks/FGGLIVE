@@ -1,6 +1,27 @@
 $(document).ready(function () {
 
   
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+$(window).scroll(function () {
+    $('.text-box-animate').each(function () {
+        if (isScrolledIntoView(this) === true) {
+            $(this).addClass('box-left-in');
+        }
+    });
+});
+
+
+
+
 
   setTimeout(function() {
     $(".slick-list").addClass("fix-width");
@@ -51,7 +72,6 @@ $(document).ready(function () {
 $("#project-11").click(function () {
   console.log("click");
   $(".project-1").slideToggle("slow");
-  
   $("#project-1").css("display", "block");
 })
 
@@ -65,5 +85,19 @@ $("#project-33").click(function () {
   console.log("click");
   $(".project-3").slideToggle("slow");
   $("#project-3").css("display", "block");
+})
+
+
+// Services Boxes
+$(".services-section-11").click(function () {
+  $(".services-section-11").toggleClass("fixed-height");
+  // Add Animation
+  $(".text-box-animate").toggleClass("slideDown");
+  // Bring Boxes Up
+  $(".services-box").css("margin-top", "-525px");
+  // Toggle Boxes
+  $(".services-section").slideToggle("slow");
+  // Show Boxes
+  $("#services-section").css("display", "block");
 })
 
