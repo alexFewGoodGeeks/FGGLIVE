@@ -5,16 +5,16 @@
     <div class="center-div">
         <div class="col-md-12">
             <div id="our-projects" class="carousel theme">
-                <div class="item" id="project-11">
+                <div class="item project-data-item active" data-project-id="1">
                     <img src="assets/images/background_images/slider1.jpg">
                 </div>
-                <div class="item" id="project-22">
+                <div class="item project-data-item" data-project-id="2">
                     <img src="assets/images/background_images/slider1.jpg">
                 </div>
-                <div class="item" id="project-33">
+                <div class="item project-data-item" data-project-id="3">
                     <img src="assets/images/background_images/slider1.jpg">
                 </div>
-                <div class="item">
+                <div class="item project-data-item">
                     <img src="assets/images/background_images/slider1.jpg">
                 </div>
                 <div class="item">

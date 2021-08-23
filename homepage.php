@@ -380,6 +380,9 @@
                                 <li><span>Email:</span><br>contact@fewgoodgeeks.com</li>
                                 <li><span>Phone:</span></br>+389 70 259 251</li>
                             </ul>
+                            <ul>
+                                <li><i class="fab fa-linkedin-in"></i></li>
+                            </ul>
                         </div>
                     </div>
 

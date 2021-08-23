@@ -372,6 +372,11 @@ footer{
 
 // }
 
+.project-data-item{
+    &.active {
+        opacity: 0.5;
+    }
+}
 
 // Animation
 .slideDown{
@@ -401,6 +406,38 @@ footer{
 		transform: translateY(0%);
 	}		
 }
+
+
+// Slider Animation
+.sliderSlideDown{
+	animation-name: SliderslideDown;	
+	animation-duration: 2s;	
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;						
+}
+
+
+@keyframes SliderslideDown {
+	0% {
+		transform: translateY(-10%);
+	}
+	50%{
+		transform: translateY(3%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
 
 
 

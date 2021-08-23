@@ -68,24 +68,18 @@ $(window).scroll(function () {
 });
 
 
-// Project Boxes
-$("#project-11").click(function () {
-  console.log("click");
-  $(".project-1").slideToggle("slow");
-  $("#project-1").css("display", "block");
-})
+// Project Slider Boxes
+$(".project-data-item").click(function() {
+  $(".project-data-item").removeClass("active");
+  $(this).addClass("active");
+    var currentProjectId = $(this).data('project-id');
 
-$("#project-22").click(function () {
-  console.log("click");
-  $(".project-2").slideToggle("slow");
-  $("#project-2").css("display", "block");
-})
-
-$("#project-33").click(function () {
-  console.log("click");
-  $(".project-3").slideToggle("slow");
-  $("#project-3").css("display", "block");
-})
+    $(".project-item-wrapper").addClass("hide");
+  
+    $(".project-item-wrapper[data-project-item-id='"+currentProjectId+"']")
+      .removeClass("hide")
+      .addClass("sliderSlideDown")
+});
 
 
 // Services Boxes
