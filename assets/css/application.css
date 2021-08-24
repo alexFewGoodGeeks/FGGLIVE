@@ -334,3 +334,19 @@ footer .contact-address li {
     transform: translateY(0%);
   }
 }
+.tree-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tree-animation hr {
+  background-color: #800000;
+  height: 2px;
+  width: 200px;
+  box-shadow: 1px 1px 20px 2px #800000;
+}
+.tree-animation .left-line {
+  position: absolute;
+  left: 400px;
+  top: -51px;
+}

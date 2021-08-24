@@ -82,6 +82,25 @@ $(".project-data-item").click(function() {
 });
 
 
+
+// Services Boxes
+// $(".service-data-item").click(function() {
+//   var currentServiceId = $(this).data('service-id');
+//   console.log(currentServiceId);
+
+//   $(".services-section-11").toggleClass("fixed-height");
+//   $(".services-box").css("margin-top", "-525px");
+//   $(".service-item-wrapper").addClass("hide");
+ 
+//   $(".service-item-wrapper[data-service-item-id='"+currentServiceId+"']")
+//     .removeClass("hide")
+//     .addClass("slideDown")
+// });
+
+
+
+
+
 // Services Boxes
 $(".services-section-11").click(function () {
   $(".services-section-11").toggleClass("fixed-height");
@@ -92,6 +111,8 @@ $(".services-section-11").click(function () {
   // Toggle Boxes
   $(".services-section").slideToggle("slow");
   // Show Boxes
-  $("#services-section").css("display", "block");
-})
+  $("#services-section")
+    .removeClass("hide")
+    .addClass("slideDown")
+});
 

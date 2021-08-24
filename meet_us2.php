@@ -24,11 +24,15 @@
 
     <!-- Main stylesheet -->
     <link href="assets/css/meet_us.css" rel="stylesheet">
+    
+    
 
     <!-- Custom Fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    
 
     <style>
         .form-group{
@@ -71,6 +75,8 @@
 
 
    </style>
+
+    <link href="assets/css/application.css" rel="stylesheet">
 </head>
 
 <body id="home">
@@ -197,7 +203,14 @@
                 </div>
             </section>
 
+            <!-- Tree Animation Section -->
+            <?php 
+                include "meet-animation.php";
+            ?>
+
             <hr style="background-color: #800000; height: 1px;">
+            
+
 
             <!-- Footer -->
             <footer>

@@ -1,7 +1,7 @@
 <!-- Box 1 -->
 <section class="hide  project-item-wrapper" data-project-item-id="1">
     <div class="container">
-        <div class="row project-1 " >
+        <div class="row project-1">
             <div class="col-md-9">
                 <h3 class="project-title">Project Title1</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam similique officiis voluptas a nostrum harum? Dolores dolore, pariatur sapiente sint porro perspiciatis, iusto magni vitae accusamus, molestiae ipsum! Molestias, delectus!</p>
