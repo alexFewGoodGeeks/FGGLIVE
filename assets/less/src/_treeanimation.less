@@ -1,4 +1,5 @@
 .tree-animation{
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +13,101 @@
 
     .left-line{
         position: absolute;
-        left: 400px;
-        top: -51px;
+        right: -142px;
+        top: -21px;
+    }
+
+    .right-line{
+        position: absolute;
+        left: -144px;
+        top: 6px;
+    }
+
+    .vl {
+        border-left: 4px solid @dark-red-color;
+        height: 134px;
+        position: absolute;
+        top: -74px;
+        right: 340px;
+        box-shadow: 1px 1px 20px 2px @dark-red-color;
+    }
+
+    .circle{
+        background-color: @dark-red-color;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: 43px;
+        top: -12px;
+    }
+
+    .left-part-tree{
+        .vl{
+            position: absolute;
+            top: -210px;
+            right: 54px;
+            height: 200px;
+        }
+
+        .vl-rotate{
+            position: absolute;
+            top: -153px;
+            right: 87px;
+            height: 200px;
+            transform: rotate(140deg);
+            border-left: 4px solid @dark-red-color;
+            height: 100px;
+            box-shadow: 1px 1px 20px 2px @dark-red-color;
+        }
+
+        .circle2{
+            background-color: @dark-red-color;
+            border-radius: 50%;
+            position: absolute;
+            right: 46px;
+            top: -77px;
+            width: 20px;                
+            height: 20px;
+        }
+    }
+
+    .right-part-tree{
+        .vl{
+            position: absolute;
+            right: 575px;
+            top: -248px;
+            height: 267px;
+        }
+
+        .circle{
+            position: absolute;
+            left: 43px;
+            top: 16px;
+        }
+
+        .vl-rotate{
+            position: absolute;
+            top: -153px;
+            left: 21px;
+            height: 200px;
+            transform: rotate(140deg);
+            border-left: 4px solid @dark-red-color;
+            height: 100px;
+            box-shadow: 1px 1px 20px 2px @dark-red-color;
+        }
+
+        .circle2{
+            background-color: @dark-red-color;
+            border-radius: 50%;
+            position: absolute;
+            left: 47px;
+            top: -77px;
+            width: 20px;                
+            height: 20px;
+        }
     }
 }   
+
+
+
