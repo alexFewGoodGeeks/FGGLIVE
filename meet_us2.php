@@ -162,7 +162,7 @@
                     </div>
                 </div>
             </section>
-            <section id="meet_us" class="meet_us content-section">
+            <!-- <section id="meet_us" class="meet_us content-section">
                 <div class="container">
                     <div class="row">
 
@@ -201,7 +201,7 @@
 
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!-- Tree Animation Section -->
             <?php 
