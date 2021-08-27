@@ -19,6 +19,9 @@
         <div class="team_outer2" id="alexM">
             <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
         </div>
+        <div class="team_outer3" id="alexM">
+            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
+        </div>
     </div>
 
     <!-- Center Logo -->
@@ -36,12 +39,21 @@
         <div class="vl"></div>
         <div class="vl-rotate"></div>
         <div class="circle2"></div>
+        <div class="circle3"></div>
+        <hr style="height:4px;" class="hr2">
+        <div class="circle4"></div>
+        <div class="vl2"></div>
+        <div class="circle5"></div>
+        <div class="vl-rotate2"></div>
 
         <!-- People Icons -->
         <div class="team_outer" id="alexM">
             <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
         </div>
         <div class="team_outer2" id="alexM">
+            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
+        </div>
+        <div class="team_outer3" id="alexM">
             <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
         </div>
     </div>

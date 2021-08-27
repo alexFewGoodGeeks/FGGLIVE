@@ -1,5 +1,5 @@
 .tree-animation{
-    height: 920px;
+    height: 1076px;
     margin-top: 60px;
     display: flex;
     justify-content: center;
@@ -21,22 +21,22 @@
 
     .right-line{
         position: absolute;
-        // left: -144px;
-        // top: 6px;
-
-        left: -83px;
+        left: -144px;
         top: 6px;
+
+        // left: -83px;
+        // top: 6px;
     }
 
     .vl {
         border-left: 4px solid @dark-red-color;
-        height: 134px;
+        height: 220px;
         position: absolute;
-        // top: -74px;
-        // right: 340px;
+        top: 304px;
+        right: 340px;
 
-        top: 314px;
-        right: 274px;
+        // top: 314px;
+        // right: 274px;
         box-shadow: 1px 1px 20px 2px @dark-red-color;
     }
 
@@ -60,13 +60,13 @@
 
         .vl-rotate{
             position: absolute;
-            top: -153px;
-            right: 87px;
+            top: -132px;
+            right: 98px;
             height: 200px;
-            transform: rotate(140deg);
-            border-left: 4px solid @dark-red-color;
+            transform: rotate(110deg);
+            border-left: 4px solid #800000;
             height: 100px;
-            box-shadow: 1px 1px 20px 2px @dark-red-color;
+            box-shadow: 1px 1px 20px 2px #800000;
         }
 
         .circle2{
@@ -92,16 +92,16 @@
 
         .hr2{
             position: absolute;
-            right: -51px;
+            right: -122px;
             top: -160px;
-            width: 104px; 
+            width: 178px;
         }
 
         .circle4{
             background-color: @dark-red-color;
             border-radius: 50%;
             position: absolute;
-            right: -55px;
+            right: -124px;
             top: -147px;
             width: 20px;
             height: 20px;
@@ -114,17 +114,17 @@
             width: 20px;
             height: 20px;
             position: absolute;
-            right: 108px;
-            top: -155px;
+            right: 134px;
+            top: -109px;
         }
 
         .vl2{
             border-left: 4px solid #800000;
             box-shadow: 1px 1px 20px 2px #800000;
             position: absolute;
-            top: -292px;
-            right: 116px;
-            height: 145px;
+            top: -377px;
+            right: 142px;
+            height: 269px;
         }
 
         .vl3{  
@@ -132,15 +132,15 @@
             box-shadow: 1px 1px 20px 2px #800000;
             position: absolute;
             top: -266px;
-            right: -47px;
+            right: -116px;
             height: 127px;
         }
 
         .team_outer{
-            background-color: @dark-red-color !important;
+            background-color: #800000 !important;
             position: absolute;
-            right: 58px;
-            bottom: 283px;
+            right: 81px;
+            bottom: 373px;
             width: 122px;
             height: 148px;
             border-radius: 50%;
@@ -149,34 +149,45 @@
         .team_outer2{
             background-color: #800000 !important;
             position: absolute;
-            right: -106px;
+            right: -176px;
             bottom: 262px;
             width: 122px;
             height: 148px;
             border-radius: 50%;
+        }
+
+        .team_outer3{
+            background-color: #800000 !important;
+            position: absolute;
+            right: -7px;
+            bottom: 206px;
+            width: 122px;
+            height: 148px;
+            border-radius: 50%;        
         }
     }
 
     .right-part-tree{
         .vl{
             position: absolute;
-            // right: 575px;
-            right: 388px;
+            right: 575px;
+            // right: 388px;
             top: -248px;
             height: 267px;
         }
 
         .circle{
             position: absolute;
-            // left: 43px;
-            left: 103px;
+            left: 43px;
+            // left: 103px;
             top: 16px;
         }
 
         .vl-rotate{
             position: absolute;
             top: -142px;
-            left: 70px;
+            // left: 70px;
+            left: 12px;
             height: 200px;
             transform: rotate(120deg);
             border-left: 4px solid #800000;
@@ -188,8 +199,8 @@
             background-color: @dark-red-color;
             border-radius: 50%;
             position: absolute;
-            // left: 47px;
-            left: 107px;
+            left: 47px;
+            // left: 107px;
             top: -77px;
             width: 20px;                
             height: 20px;
@@ -198,7 +209,9 @@
         .team_outer{
             background-color: #800000 !important;
             position: absolute;
-            left: 53px;
+            // left: 53px;
+
+            left: -3px;
             bottom: 239px;
             width: 122px;
             height: 148px;
@@ -208,8 +221,80 @@
         .team_outer2{
             background-color: #800000 !important;
             position: absolute;
-            left: -32px;
-            bottom: 113px;
+            // left: -32px;
+            // bottom: 113px;
+            left: -88px;
+            bottom: 112px;        
+
+            width: 122px;
+            height: 148px;
+            border-radius: 50%;
+        }
+
+        .circle3{
+            background-color: #800000;
+            border-radius: 50%;
+            position: absolute;
+            left: 49px;
+            top: -182px;
+            width: 15px;
+            height: 15px;
+            z-index: 1;
+        }
+
+        .circle4{
+            background-color: #800000;
+            border-radius: 50%;
+            position: absolute;
+            left: 152px;
+            top: -183px;
+            width: 20px;
+            height: 20px;
+            z-index: 1;
+        }
+
+        .hr2{
+            position: absolute;
+            left: 58px;
+            top: -196px;
+            width: 104px; 
+        }
+
+        .vl2{
+            border-left: 4px solid #800000;
+            box-shadow: 1px 1px 20px 2px #800000;
+            position: absolute;
+            bottom: 176px;
+            left: 160px;
+            height: 240px;
+        }
+
+        .circle5{
+            background-color: #800000;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            left: 151px;
+            top: -332px;        
+        }
+
+        .vl-rotate2{
+            position: absolute;
+            bottom: 292px;
+            left: 235px;
+            height: 200px;
+            transform: rotate(50deg);
+            border-left: 4px solid #800000;
+            height: 175px;
+            box-shadow: 1px 1px 20px 2px #800000;
+        }
+
+        .team_outer3{
+            background-color: #800000 !important;
+            position: absolute;
+            left: 101px;
+            bottom: 405px;
             width: 122px;
             height: 148px;
             border-radius: 50%;

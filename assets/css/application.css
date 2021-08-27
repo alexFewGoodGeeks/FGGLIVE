@@ -335,7 +335,7 @@ footer .contact-address li {
   }
 }
 .tree-animation {
-  height: 920px;
+  height: 1076px;
   margin-top: 60px;
   display: flex;
   justify-content: center;
@@ -355,15 +355,15 @@ footer .contact-address li {
 }
 .tree-animation .right-line {
   position: absolute;
-  left: -83px;
+  left: -144px;
   top: 6px;
 }
 .tree-animation .vl {
   border-left: 4px solid #800000;
-  height: 134px;
+  height: 220px;
   position: absolute;
-  top: 314px;
-  right: 274px;
+  top: 304px;
+  right: 340px;
   box-shadow: 1px 1px 20px 2px #800000;
 }
 .tree-animation .circle {
@@ -383,10 +383,10 @@ footer .contact-address li {
 }
 .tree-animation .left-part-tree .vl-rotate {
   position: absolute;
-  top: -153px;
-  right: 87px;
+  top: -132px;
+  right: 98px;
   height: 200px;
-  transform: rotate(140deg);
+  transform: rotate(110deg);
   border-left: 4px solid #800000;
   height: 100px;
   box-shadow: 1px 1px 20px 2px #800000;
@@ -412,15 +412,15 @@ footer .contact-address li {
 }
 .tree-animation .left-part-tree .hr2 {
   position: absolute;
-  right: -51px;
+  right: -122px;
   top: -160px;
-  width: 104px;
+  width: 178px;
 }
 .tree-animation .left-part-tree .circle4 {
   background-color: #800000;
   border-radius: 50%;
   position: absolute;
-  right: -55px;
+  right: -124px;
   top: -147px;
   width: 20px;
   height: 20px;
@@ -432,30 +432,30 @@ footer .contact-address li {
   width: 20px;
   height: 20px;
   position: absolute;
-  right: 108px;
-  top: -155px;
+  right: 134px;
+  top: -109px;
 }
 .tree-animation .left-part-tree .vl2 {
   border-left: 4px solid #800000;
   box-shadow: 1px 1px 20px 2px #800000;
   position: absolute;
-  top: -292px;
-  right: 116px;
-  height: 145px;
+  top: -377px;
+  right: 142px;
+  height: 269px;
 }
 .tree-animation .left-part-tree .vl3 {
   border-left: 4px solid #800000;
   box-shadow: 1px 1px 20px 2px #800000;
   position: absolute;
   top: -266px;
-  right: -47px;
+  right: -116px;
   height: 127px;
 }
 .tree-animation .left-part-tree .team_outer {
   background-color: #800000 !important;
   position: absolute;
-  right: 58px;
-  bottom: 283px;
+  right: 81px;
+  bottom: 373px;
   width: 122px;
   height: 148px;
   border-radius: 50%;
@@ -463,27 +463,36 @@ footer .contact-address li {
 .tree-animation .left-part-tree .team_outer2 {
   background-color: #800000 !important;
   position: absolute;
-  right: -106px;
+  right: -176px;
   bottom: 262px;
+  width: 122px;
+  height: 148px;
+  border-radius: 50%;
+}
+.tree-animation .left-part-tree .team_outer3 {
+  background-color: #800000 !important;
+  position: absolute;
+  right: -7px;
+  bottom: 206px;
   width: 122px;
   height: 148px;
   border-radius: 50%;
 }
 .tree-animation .right-part-tree .vl {
   position: absolute;
-  right: 388px;
+  right: 575px;
   top: -248px;
   height: 267px;
 }
 .tree-animation .right-part-tree .circle {
   position: absolute;
-  left: 103px;
+  left: 43px;
   top: 16px;
 }
 .tree-animation .right-part-tree .vl-rotate {
   position: absolute;
   top: -142px;
-  left: 70px;
+  left: 12px;
   height: 200px;
   transform: rotate(120deg);
   border-left: 4px solid #800000;
@@ -494,7 +503,7 @@ footer .contact-address li {
   background-color: #800000;
   border-radius: 50%;
   position: absolute;
-  left: 107px;
+  left: 47px;
   top: -77px;
   width: 20px;
   height: 20px;
@@ -502,7 +511,7 @@ footer .contact-address li {
 .tree-animation .right-part-tree .team_outer {
   background-color: #800000 !important;
   position: absolute;
-  left: 53px;
+  left: -3px;
   bottom: 239px;
   width: 122px;
   height: 148px;
@@ -511,8 +520,70 @@ footer .contact-address li {
 .tree-animation .right-part-tree .team_outer2 {
   background-color: #800000 !important;
   position: absolute;
-  left: -32px;
-  bottom: 113px;
+  left: -88px;
+  bottom: 112px;
+  width: 122px;
+  height: 148px;
+  border-radius: 50%;
+}
+.tree-animation .right-part-tree .circle3 {
+  background-color: #800000;
+  border-radius: 50%;
+  position: absolute;
+  left: 49px;
+  top: -182px;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+}
+.tree-animation .right-part-tree .circle4 {
+  background-color: #800000;
+  border-radius: 50%;
+  position: absolute;
+  left: 152px;
+  top: -183px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
+.tree-animation .right-part-tree .hr2 {
+  position: absolute;
+  left: 58px;
+  top: -196px;
+  width: 104px;
+}
+.tree-animation .right-part-tree .vl2 {
+  border-left: 4px solid #800000;
+  box-shadow: 1px 1px 20px 2px #800000;
+  position: absolute;
+  bottom: 176px;
+  left: 160px;
+  height: 240px;
+}
+.tree-animation .right-part-tree .circle5 {
+  background-color: #800000;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 151px;
+  top: -332px;
+}
+.tree-animation .right-part-tree .vl-rotate2 {
+  position: absolute;
+  bottom: 292px;
+  left: 235px;
+  height: 200px;
+  transform: rotate(50deg);
+  border-left: 4px solid #800000;
+  height: 175px;
+  box-shadow: 1px 1px 20px 2px #800000;
+}
+.tree-animation .right-part-tree .team_outer3 {
+  background-color: #800000 !important;
+  position: absolute;
+  left: 101px;
+  bottom: 405px;
   width: 122px;
   height: 148px;
   border-radius: 50%;
