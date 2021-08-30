@@ -323,6 +323,61 @@
                     $(this).addClass("animated").dequeue();
                 });
             });
+
+            $('.animation-img').click(function(){
+                $('#left-hr-line').css('opacity', '1');
+                $('#left-hr-line').addClass('fade-in-line');
+
+               // $('.left-part-tree .circle').css('opacity', '1');
+                // $('.left-part-tree .circle').addClass('fade-in-line');
+                //$(this).delay(500).queue(function() {
+                  //  $(this).addClass('fade-in-line');
+                //});
+                
+                $('.left-part-tree .vl').css('opacity', '1');
+                $('.left-part-tree .vl').addClass('fade-in-line');
+
+                $('.left-part-tree .vl-rotate').css('opacity', '1');
+                $('.left-part-tree .vl-rotate').addClass('fade-in-line');
+
+           
+
+               // $('.left-part-tree .circle3').css('opacity', '1');
+                // $('.left-part-tree .circle3').addClass('fade-in-line');
+                //$(this).delay(500).queue(function() {
+                  //  $(this).addClass('fade-in-line');
+                //});
+
+                $('.left-part-tree .hr2').css('opacity', '1');
+                $('.left-part-tree .hr2').addClass('fade-in-line');
+
+                //$('.left-part-tree .circle4').css('opacity', '1');
+                // $('.left-part-tree .circle4').addClass('fade-in-line');
+                //$(this).delay(500).queue(function() {
+                  //  $(this).addClass('fade-in-line');
+                //});
+
+               // $('.left-part-tree .circle5').css('opacity', '1');
+                // $('.left-part-tree .circle5').addClass('fade-in-line');
+                //$(this).delay(500).queue(function() {
+                  //  $(this).addClass('fade-in-line');
+                //});
+
+                $('.left-part-tree .vl2').css('opacity', '1');
+                $('.left-part-tree .vl2').addClass('fade-in-line');
+
+                $('.left-part-tree .vl3').css('opacity', '1');
+                $('.left-part-tree .vl3').addClass('fade-in-line');
+
+                $('.left-part-tree #alexM').css('opacity', '1');
+                $('.left-part-tree #alexM').addClass('fade-in-line');
+
+                setTimeout(() => {
+                    $('.circle-obj-left').css('opacity', '1');
+                    $('.circle-obj-left').addClass('animate-circle-obj-left')
+                }, 2000);
+            });
+
         });
         
 	</script>        

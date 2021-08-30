@@ -335,7 +335,7 @@ footer .contact-address li {
   }
 }
 .tree-animation {
-  height: 1076px;
+  height: 200%;
   margin-top: 60px;
   display: flex;
   justify-content: center;
@@ -346,7 +346,6 @@ footer .contact-address li {
   background-color: #800000;
   height: 2px;
   width: 200px;
-  box-shadow: 1px 1px 20px 2px #800000;
 }
 .tree-animation .left-line {
   position: absolute;
@@ -360,11 +359,10 @@ footer .contact-address li {
 }
 .tree-animation .vl {
   border-left: 4px solid #800000;
-  height: 220px;
+  height: 517px;
   position: absolute;
-  top: 304px;
+  bottom: 150px;
   right: 340px;
-  box-shadow: 1px 1px 20px 2px #800000;
 }
 .tree-animation .circle {
   background-color: #800000;
@@ -389,7 +387,6 @@ footer .contact-address li {
   transform: rotate(110deg);
   border-left: 4px solid #800000;
   height: 100px;
-  box-shadow: 1px 1px 20px 2px #800000;
 }
 .tree-animation .left-part-tree .circle2 {
   background-color: #800000;
@@ -437,7 +434,6 @@ footer .contact-address li {
 }
 .tree-animation .left-part-tree .vl2 {
   border-left: 4px solid #800000;
-  box-shadow: 1px 1px 20px 2px #800000;
   position: absolute;
   top: -377px;
   right: 142px;
@@ -445,7 +441,6 @@ footer .contact-address li {
 }
 .tree-animation .left-part-tree .vl3 {
   border-left: 4px solid #800000;
-  box-shadow: 1px 1px 20px 2px #800000;
   position: absolute;
   top: -266px;
   right: -116px;
@@ -491,13 +486,12 @@ footer .contact-address li {
 }
 .tree-animation .right-part-tree .vl-rotate {
   position: absolute;
-  top: -142px;
-  left: 12px;
+  top: -190px;
+  left: -18px;
   height: 200px;
   transform: rotate(120deg);
   border-left: 4px solid #800000;
-  height: 100px;
-  box-shadow: 1px 1px 20px 2px #800000;
+  height: 165px;
 }
 .tree-animation .right-part-tree .circle2 {
   background-color: #800000;
@@ -520,8 +514,8 @@ footer .contact-address li {
 .tree-animation .right-part-tree .team_outer2 {
   background-color: #800000 !important;
   position: absolute;
-  left: -88px;
-  bottom: 112px;
+  left: -149px;
+  bottom: 148px;
   width: 122px;
   height: 148px;
   border-radius: 50%;
@@ -554,11 +548,17 @@ footer .contact-address li {
 }
 .tree-animation .right-part-tree .vl2 {
   border-left: 4px solid #800000;
-  box-shadow: 1px 1px 20px 2px #800000;
   position: absolute;
   bottom: 176px;
   left: 160px;
   height: 240px;
+}
+.tree-animation .right-part-tree .vl3 {
+  border-left: 4px solid #800000;
+  position: absolute;
+  bottom: 430px;
+  left: 300px;
+  height: 169px;
 }
 .tree-animation .right-part-tree .circle5 {
   background-color: #800000;
@@ -569,6 +569,15 @@ footer .contact-address li {
   left: 151px;
   top: -332px;
 }
+.tree-animation .right-part-tree .circle6 {
+  background-color: #800000;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 290px;
+  top: -446px;
+}
 .tree-animation .right-part-tree .vl-rotate2 {
   position: absolute;
   bottom: 292px;
@@ -577,7 +586,6 @@ footer .contact-address li {
   transform: rotate(50deg);
   border-left: 4px solid #800000;
   height: 175px;
-  box-shadow: 1px 1px 20px 2px #800000;
 }
 .tree-animation .right-part-tree .team_outer3 {
   background-color: #800000 !important;
@@ -587,4 +595,111 @@ footer .contact-address li {
   width: 122px;
   height: 148px;
   border-radius: 50%;
+}
+.tree-animation .right-part-tree .team_outer4 {
+  background-color: #800000 !important;
+  position: absolute;
+  left: 243px;
+  bottom: 530px;
+  width: 122px;
+  height: 148px;
+  border-radius: 50%;
+}
+.tree-animation .center-part-tree .center-line {
+  position: absolute;
+  left: 216px;
+  top: -57px;
+  width: 70px;
+}
+.tree-animation .center-part-tree .circle {
+  background-color: #800000;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 329px;
+  top: -46px;
+}
+.tree-animation .center-part-tree .circle2 {
+  background-color: #800000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -45px;
+  left: 202px;
+}
+.tree-animation .center-part-tree .vl2 {
+  border-left: 4px solid #800000;
+  position: absolute;
+  bottom: 245px;
+  left: 209px;
+  height: 273px;
+}
+.tree-animation .center-part-tree .circle3 {
+  background-color: #800000;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  right: 331px;
+  top: -126px;
+}
+.tree-animation .center-part-tree .vl-rotate {
+  position: absolute;
+  bottom: 292px;
+  left: 359px;
+  height: 200px;
+  transform: rotate(50deg);
+  border-left: 4px solid #800000;
+  height: 175px;
+}
+.tree-animation .center-part-tree .vl3 {
+  border-left: 4px solid #800000;
+  position: absolute;
+  bottom: 428px;
+  left: 429px;
+  height: 118px;
+}
+.tree-animation .center-part-tree .circle4 {
+  background-color: #800000;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  right: 193px;
+  top: -236px;
+}
+.tree-animation .center-part-tree .team_outer {
+  background-color: #800000 !important;
+  position: absolute;
+  left: 147px;
+  width: 122px;
+  height: 148px;
+  border-radius: 50%;
+  bottom: 503px;
+}
+.tree-animation .center-part-tree .team_outer2 {
+  background-color: #800000 !important;
+  position: absolute;
+  left: 233px;
+  width: 122px;
+  height: 148px;
+  border-radius: 50%;
+  bottom: 661px;
+}
+.tree-animation .center-part-tree .team_outer3 {
+  background-color: #800000 !important;
+  position: absolute;
+  left: 370px;
+  width: 122px;
+  height: 148px;
+  border-radius: 50%;
+  bottom: 525px;
+}
+.fade-in-line {
+  transition: all 3s ease-in-out;
+}
+.animate-circle-obj-left {
+  transition: all 2s ease-in-out;
 }
