@@ -98,21 +98,16 @@ $(".project-data-item").click(function() {
 // });
 
 
-
-
-
 // Services Boxes
-$(".services-section-11").click(function () {
-  $(".services-section-11").toggleClass("fixed-height");
-  // Add Animation
-  $(".text-box-animate").toggleClass("slideDown");
-  // Bring Boxes Up
-  $(".services-box").css("margin-top", "-525px");
-  // Toggle Boxes
-  $(".services-section").slideToggle("slow");
-  // Show Boxes
-  $("#services-section")
+$(".services-section-1").click(function(){
+    $(".services-section-11").toggleClass("fixed-height");
+
+    $(".services-box").css("margin-top", "-525px");
+    
+    $(".services-section").slideToggle(500);
+    $("#services-section")
     .removeClass("hide")
-    .addClass("slideDown")
+    .addClass("sliderSlideDown")
 });
+
 

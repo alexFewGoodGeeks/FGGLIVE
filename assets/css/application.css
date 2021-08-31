@@ -334,6 +334,20 @@ footer .contact-address li {
     transform: translateY(0%);
   }
 }
+.footer-content-social {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 10px;
+}
+.footer-content-social h4 {
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+}
+.footer-content-social a {
+  color: #800000 !important;
+  padding-right: 5px;
+}
 .tree-animation {
   height: 200%;
   margin-top: 60px;

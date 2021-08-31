@@ -380,9 +380,12 @@
                                 <li><span>Email:</span><br>contact@fewgoodgeeks.com</li>
                                 <li><span>Phone:</span></br>+389 70 259 251</li>
                             </ul>
-                            <ul>
-                                <li><i class="fab fa-linkedin-in"></i></li>
-                            </ul>
+                           
+                            <div class="footer-content-social">
+                                <h4>Stay Connected:</h4>
+                                <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+                                <a href="https://www.facebook.com/FewGoodGeeks" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+                            </div>
                         </div>
                     </div>
 
@@ -411,6 +414,7 @@
                             </div>
                         </form>
                     </div>
+                    
 
                 </div>
             </div>
