@@ -383,9 +383,10 @@
                            
                             <div class="footer-content-social">
                                 <h4>Stay Connected:</h4>
-                                <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
-                                <a href="https://www.facebook.com/FewGoodGeeks" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+                                <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank" style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
                             </div>
+
                         </div>
                     </div>
 
