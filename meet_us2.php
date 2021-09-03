@@ -167,14 +167,14 @@
                         They are the electrical impulses that surge through its synapses and across its neural network.
                         They are the fusion reaction inside a living star. They are us. <span>WE are the Geeks!</span>
                         <br>
-                        <div class="meet-us-ant-img">
+                        <!-- <div class="meet-us-ant-img">
                             <img src="assets/images/ant.png" class="ant-img1 ant-img" alt="ant">
                             <img src="assets/images/ant.png" class="ant-img2 ant-img" alt="ant">
                             <img src="assets/images/ant.png" class="ant-img3 ant-img" alt="ant">
                             <img src="assets/images/ant.png" class="ant-img4 ant-img" alt="ant">
                             <img src="assets/images/ant.png" class="ant-img5 ant-img" alt="ant">
                             <img src="assets/images/ant.png" class="ant-img6 ant-img" alt="ant">
-                        </div>
+                        </div> -->
                     </h3>
                 </div>
             </div>

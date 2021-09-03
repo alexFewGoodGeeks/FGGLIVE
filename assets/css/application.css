@@ -347,38 +347,6 @@ footer .contact-address li {
   height: 866px;
   padding-bottom: 200px;
 }
-.meet-us-ant-img {
-  padding-top: 30px;
-  margin: 0;
-}
-.meet-us-ant-img .ant-img {
-  width: 30px;
-  height: 30px;
-}
-.meet-us-ant-img .ant-img1 {
-  position: absolute;
-  left: 155px;
-}
-.meet-us-ant-img .ant-img2 {
-  position: absolute;
-  left: 46px;
-}
-.meet-us-ant-img .ant-img3 {
-  position: absolute;
-  right: 105px;
-}
-.meet-us-ant-img .ant-img4 {
-  position: absolute;
-  left: 310px;
-}
-.meet-us-ant-img .ant-img5 {
-  position: absolute;
-  right: 251px;
-}
-.content-section {
-  padding: 10px 0 !important;
-  z-index: 1;
-}
 .tree-animation {
   height: 200%;
   margin-top: 60px;

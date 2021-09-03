@@ -10,7 +10,7 @@
 
             <div class="container">
                 <div class="row text-center services-section-11">
-                    <div class="col-md-4 services-section-1">
+                    <div class="col-md-4 services-section-1" data-section-id="1">
                         <div class="row services-item sans-shadow text-center" data-toggle="modal"
                             data-target="#modalConsultancy" style="min-height: 213px;">
                             <img class="serviceImgOn" src="assets/images/geek_icons/Consultancy-R.png" />
@@ -21,7 +21,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 services-section-1">
+                    <div class="col-md-4 services-section-1" data-section-id="2"> 
                         <div class="row services-item sans-shadow text-center" data-toggle="modal"
                             data-target="#modalOutsourcing" style="min-height: 213px;">
                             <img class="serviceImgOn whatWeDo2" src="assets/images/geek_icons/Outsourcing-R.png" />
@@ -32,7 +32,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 services-section-1">
+                    <div class="col-md-4 services-section-1" data-section-id="3">
                         <div class="row services-item sans-shadow text-center" data-toggle="modal"
                             data-target="#modalProjectDevelopment" style="min-height: 213px;">
                             <img class="serviceImgOn whatWeDo3"
