@@ -1,6 +1,6 @@
 <div class="tree-animation">
     <!-- Left Part Of The Tree -->
-    <div class="col-md-4 left-part-tree">
+    <div class="col-md-4 left-part-tree all">
         <hr style="height:4px; opacity:0;" class="left-line line-obj-left" id="left-hr-line">
         <div style="opacity:0;" class="circle circle-obj-left"></div>
         <div style="opacity:0;" class="vl line-obj-left"></div>

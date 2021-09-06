@@ -85,7 +85,6 @@ $(".project-data-item").click(function() {
 // Services Boxes
 $(".services-section-1").click(function(){
   var dataSectionId =  $(this).data('section-id');
-  console.log(dataSectionId);
 
   $(".services-section-11").addClass("fixed-height");
   $(".services-box").css("margin-top", "-525px");

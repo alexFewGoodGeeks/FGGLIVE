@@ -102,8 +102,8 @@
             <div class="navbar-header pull-left">
                 <a class="navbar-brand page-scroll" href="/">
                     <span class="brand-logo">
-                        <img src="assets/images/FGGLogoMain.png"
-                            onerror="this.src='assets/images/FGGLogoMain.png'; this.onerror=null;"
+                        <img src="assets/images/logo-black.png"
+                            onerror="this.src='assets/images/logo-black.png'; this.onerror=null;"
                             alt="Few Good Geeks Logo" title="" class="logo-tiny" /></span>
                 </a>
             </div>
@@ -166,15 +166,7 @@
                         Geeks are the driving force of our company whose primary motto is <span>Maximum Effort</span>.
                         They are the electrical impulses that surge through its synapses and across its neural network.
                         They are the fusion reaction inside a living star. They are us. <span>WE are the Geeks!</span>
-                        <br>
-                        <!-- <div class="meet-us-ant-img">
-                            <img src="assets/images/ant.png" class="ant-img1 ant-img" alt="ant">
-                            <img src="assets/images/ant.png" class="ant-img2 ant-img" alt="ant">
-                            <img src="assets/images/ant.png" class="ant-img3 ant-img" alt="ant">
-                            <img src="assets/images/ant.png" class="ant-img4 ant-img" alt="ant">
-                            <img src="assets/images/ant.png" class="ant-img5 ant-img" alt="ant">
-                            <img src="assets/images/ant.png" class="ant-img6 ant-img" alt="ant">
-                        </div> -->
+                        <img src="assets/images/meet-us-ants.png" class="ant-img1 ant-img" alt="ant">
                     </h3>
                 </div>
             </div>

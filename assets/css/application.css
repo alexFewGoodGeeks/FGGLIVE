@@ -347,6 +347,12 @@ footer .contact-address li {
   height: 866px;
   padding-bottom: 200px;
 }
+.meet_us_intro {
+  padding: 16px 0px 0px 0px !important;
+}
+.pull-right span {
+  background-color: black !important;
+}
 .tree-animation {
   height: 200%;
   margin-top: 60px;
@@ -488,7 +494,7 @@ footer .contact-address li {
 }
 .tree-animation .right-part-tree .vl {
   position: absolute;
-  right: 575px;
+  left: 55px;
   top: -248px;
   height: 267px;
 }
