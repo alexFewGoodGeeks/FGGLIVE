@@ -626,7 +626,7 @@ footer .contact-address li {
 }
 .tree-animation .center-part-tree .center-line {
   position: absolute;
-  left: 216px;
+  right: 342px;
   top: -57px;
   width: 70px;
 }
@@ -646,13 +646,13 @@ footer .contact-address li {
   height: 20px;
   position: absolute;
   top: -45px;
-  left: 202px;
+  right: 411px;
 }
 .tree-animation .center-part-tree .vl2 {
   border-left: 4px solid #800000;
   position: absolute;
   bottom: 245px;
-  left: 209px;
+  right: 418px;
   height: 273px;
 }
 .tree-animation .center-part-tree .circle3 {
@@ -667,7 +667,7 @@ footer .contact-address li {
 .tree-animation .center-part-tree .vl-rotate {
   position: absolute;
   bottom: 292px;
-  left: 359px;
+  right: 272px;
   height: 200px;
   transform: rotate(50deg);
   border-left: 4px solid #800000;
@@ -677,7 +677,7 @@ footer .contact-address li {
   border-left: 4px solid #800000;
   position: absolute;
   bottom: 428px;
-  left: 429px;
+  right: 202px;
   height: 118px;
 }
 .tree-animation .center-part-tree .circle4 {
@@ -692,7 +692,7 @@ footer .contact-address li {
 .tree-animation .center-part-tree .team_outer {
   background-color: #800000 !important;
   position: absolute;
-  left: 147px;
+  right: 359px;
   width: 122px;
   height: 148px;
   border-radius: 50%;
@@ -701,7 +701,7 @@ footer .contact-address li {
 .tree-animation .center-part-tree .team_outer2 {
   background-color: #800000 !important;
   position: absolute;
-  left: 233px;
+  right: 284px;
   width: 122px;
   height: 148px;
   border-radius: 50%;
@@ -710,7 +710,7 @@ footer .contact-address li {
 .tree-animation .center-part-tree .team_outer3 {
   background-color: #800000 !important;
   position: absolute;
-  left: 370px;
+  right: 147px;
   width: 122px;
   height: 148px;
   border-radius: 50%;
@@ -721,4 +721,8 @@ footer .contact-address li {
 }
 .animate-circle-obj-left {
   transition: all 2s ease-in-out;
+}
+.animation-img {
+  width: 350px;
+  height: 150px;
 }

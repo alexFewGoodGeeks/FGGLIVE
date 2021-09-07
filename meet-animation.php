@@ -27,7 +27,7 @@
     <!-- Center Logo -->
     <div class="col-md-4 center-part-tree">
         <div class="tree-animation">
-            <img src="assets/images/meetUsLogo.png" alt="" width="350" height="150" class="animation-img">
+            <img src="assets/images/meetUsLogo.png" alt="" class="animation-img">
         </div>
         <div style="opacity:0;" class="vl line-obj-center"></div>
         <hr style="height:4px; opacity:0;" class="center-line line-obj-center">
