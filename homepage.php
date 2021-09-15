@@ -171,6 +171,13 @@
         </div>
     </section>
 
+
+    <!-- Services Section / What We Do-->
+    <?php 
+        include "services.php";
+    ?>
+
+
     <!-- Background Rotating Cogs -->
     <div class="cogs">
     </div>
@@ -258,10 +265,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <?php 
-        include "services.php";
-    ?>
 
     <!-- Partners Section -->
     <a class="anchor" id="partners"></a>
@@ -367,7 +370,7 @@
     <!-- Footer contact section -->
     <footer>
         <div class="logo-footer">
-        <img src="assets/images/logo-black.png">
+        <img src="assets/images/FGG_Logo_BlackRed 280616.png">
         </div>
         <a class="anchor" id="contact"></a>
         <section class="contact content-section no-bottom-pad">
@@ -383,7 +386,8 @@
                            
                             <div class="footer-content-social">
                                 <h4>Stay Connected:</h4>
-                                <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-twitter-square fa-2x"></i></a>
                                 <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank" style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
                             </div>
 
@@ -417,6 +421,17 @@
                     </div>
                     
 
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copynote" style="background-color:white;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center" style="color: rgba(128,0,0,1);">
+                            &copy; 2021 FewGoodGeeks. All rights reserved.
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

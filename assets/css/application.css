@@ -25,7 +25,7 @@
 #sci_design {
   background: url("../images/background_images/SciDesign.jpg");
   background-size: cover;
-  height: 100%;
+  height: 50%;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -60,7 +60,6 @@
   background: url("../images/background_images/CoreValues.jpg");
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 40px;
 }
 .services .text-center h2,
 .services .text-center h3 {
@@ -85,6 +84,10 @@ footer .contact-address li {
 }
 .logo-footer {
   text-align: center;
+}
+.logo-footer img {
+  width: 540px;
+  height: 200px;
 }
 .footer-img {
   display: flex;
