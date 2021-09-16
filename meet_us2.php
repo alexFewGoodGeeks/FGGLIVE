@@ -104,7 +104,7 @@
                     <span class="brand-logo">
                         <img src="assets/images/logo-black.png"
                             onerror="this.src='assets/images/logo-black.png'; this.onerror=null;"
-                            alt="Few Good Geeks Logo" title="" class="logo-tiny" /></span>
+                            alt="Few Good Geeks Logo" title="" class="logo-left-corner" /></span>
                 </a>
             </div>
             <div class="meet-nav pull-right">
@@ -265,11 +265,11 @@
                             <h3>+389 70 259 251</h3>
                         </div>
 
-                        <div class="col-md-12 col-xs-12 social segment">
-                            <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
-                                    class="fa fa-facebook-square fa-2x"></i></a>
-                            <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"
-                                style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <div class="footer-content-social">
+                            <h4>Stay Connected:</h4>
+                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank" style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
                         </div>
 
                     </div>
@@ -310,16 +310,16 @@
 
 
 
-        <div class="copynote">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center white">
-                        &copy; 2021 FewGoodGeeks. All rights reserved.
+            <!-- Copyright -->
+            <div class="copynote" style="background-color:white;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center" style="color: rgba(128,0,0,1);">
+                            &copy; 2021 FewGoodGeeks. All rights reserved.
+                        </div>
                     </div>
-
                 </div>
             </div>
-        </div>
         <div class="nav pull-right scroll-top">
             <a href="#home" title="Scroll to top"><i class="fa fa-angle-up"></i></a>
         </div>

@@ -356,6 +356,18 @@ footer .contact-address li {
 .pull-right span {
   background-color: black !important;
 }
+.overlay {
+  background-color: #800000 !important;
+  /* Primary color, can be changed via colors.css */
+}
+.logo-left-corner {
+  width: 173px;
+  height: 69px;
+}
+.navbar-custom.top-nav-collapse {
+  background: white !important;
+  /* Primary color, can be changed via colors.css */
+}
 .tree-animation {
   height: 200%;
   margin-top: 60px;

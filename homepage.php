@@ -30,8 +30,6 @@
     <!-- Slider CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 
-
-
     <!-- Main stylesheet -->
     <link href="assets/css/hallooou.min.css" rel="stylesheet">
 
@@ -89,7 +87,7 @@
                         <img src="assets/images/logo-black.png"
                             onerror="this.src='assets/images/FGGLogoMain.png'; this.onerror=null;"
                             alt="GEEKS provide a universal FIX, everything we touch simply CLICKS." title=""
-                            class="logo-tiny" /></span>
+                            class="logo-left-corner" /></span>
                 </a>
             </div>
             <div class="main-nav pull-right">
@@ -258,7 +256,7 @@
                         source is their sense of curiosity.</h3>
 
                     <div class="form-group">
-                        <a href="scidesign/" class="btn btn-default">Take a look at our creative work</a>
+                        <a href="scidesign/index.html" target="blank" class="btn btn-default">Take a look at our creative work</a>
                     </div>
                 </div>
             </div>
