@@ -1,86 +1,55 @@
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
 <div class="tree-animation">
     <!-- Left Part Of The Tree -->
     <div class="col-md-4 left-part-tree all">
-        <hr style="height:4px; opacity:0;" class="left-line line-obj-left" id="left-hr-line">
-        <div style="opacity:0;" class="circle circle-obj-left"></div>
-        <div style="opacity:0;" class="vl line-obj-left"></div>
-        <div style="opacity:0;" class="vl-rotate line-obj-left"></div>
-        <div style="opacity:0;" class="circle2 circle-obj-left"></div>
-        <div style="opacity:0;" class="circle3 circle-obj-left"></div>
-        <hr style="height:4px; opacity:0;" class="hr2 line-obj-left">
-        <div style="opacity:0;" class="circle4 circle-obj-left"></div>
-        <div style="opacity:0;" class="circle5 circle-obj-left"></div>
-        <div style="opacity:0;" class="vl2 line-obj-left"></div>
-        <div style="opacity:0;" class="vl3 line-obj-left"></div>
-        <!-- People Icons -->
-        <div class="team_outer line-obj-left" id="alexM" style="opacity:0;">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
-        <div class="team_outer2 line-obj-left" id="alexM" style="opacity:0;">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
-        <div class="team_outer3 line-obj-left" id="alexM" style="opacity:0;">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
+        <hr class="left-line line-obj-left" id="left-hr-line">
+        <div class="main1 treeitem">
+			<div class="point1-1 treeitem">
+					<div class="line1-1 treeitem"></div>
+					<div class="point1-2 treeitem"></div>
+                    <div class="point1-4 treeitem"></div>
+					<!-- <div class="line1-2" style="position: absolute; right: 56px; bottom: 79px;  transform: rotate(110deg);border-left: 4px solid #800000; height: 0px;z-index:-10;"></div> -->
+					<div class="line1-2"></div>
+					<div class="point1-3 treeitem"></div>
+					<div class="line1-4 treeitem"></div>
+                    <div class="line1-5 treeitem"></div>
+                    <div class="point1-5 treeitem"></div>
+                    <div class="line1-6 treeitem"></div>
+			</div>														
+		</div>
     </div>
-
+	
     <!-- Center Logo -->
     <div class="col-md-4 center-part-tree">
-        <div class="tree-animation">
-            <img src="assets/images/meetUsLogo.png" alt="" class="animation-img">
+        <div class="main2 treeitem">
+		</div>
+		<div class="">
+            <img  class="mainbtn animation-img" src="assets/images/meetUsLogo.png" alt="">
         </div>
-        <div style="opacity:0;" class="vl line-obj-center"></div>
-        <hr style="height:4px; opacity:0;" class="center-line line-obj-center">
-        <div style="opacity:0;" class="circle circle-obj-center"></div>
-        <div style="opacity:0;" class="circle2 circle-obj-center"></div>
-        <div style="opacity:0;" class="vl2 line-obj-center"></div>
-        <div style="opacity:0;" class="circle3 circle-obj-center"></div>
-        <div style="opacity:0;" class="vl-rotate line-obj-center"></div>
-        <div style="opacity:0;" class="circle4 circle-obj-center"></div>
-        <div style="opacity:0;" class="vl3 line-obj-center"></div>
-        <!-- People Icons -->
-        <div style="opacity:0;" class="team_outer line-obj-center" id="alexM">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
-        <div style="opacity:0;" class="team_outer2 line-obj-center" id="alexM">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
-        <div style="opacity:0;" class="team_outer3 line-obj-center" id="alexM">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
+		
+		<div class="point1-1 treeitem">
+			<div class="line2-1 treeitem"></div>
+			<div class="point2-2 treeitem"></div>
+			<div class="line2-2"></div>
+			<div class="point2-3 treeitem"></div>
+			<div class="line2-4 treeitem"></div>
+            <div class="line2-5"></div>
+            <div class="point2-4 treeitem"></div>
+            <div class="line2-6 treeitem"></div>
+		</div>
     </div>
 
     <!-- Right Part Of The Tree -->
     <div class="col-md-4 right-part-tree">
-        <hr style="height:4px; opacity:0;" class="right-line line-obj-right">
-        <div style="opacity:0;" class="circle circle-obj-right"></div>
-        <div style="opacity:0;" class="vl line-obj-right"></div>
-        <div style="opacity:0;" class="vl-rotate line-obj-right"></div>
-        <div style="opacity:0;" class="circle2 circle-obj-right"></div>
-        <div style="opacity:0;" class="circle3 circle-obj-right"></div>
-        <hr style="height:4px; opacity:0;" class="hr2 line-obj-right">
-        <div style="opacity:0;" class="circle4 circle-obj-right"></div>
-        <div style="opacity:0;" class="vl2 line-obj-right"></div>
-        <div style="opacity:0;" class="circle5 circle-obj-right"></div>
-        <div style="opacity:0;" class="vl-rotate2 line-obj-right"></div>
-        <div style="opacity:0;" class="circle6 circle-obj-right"></div>
-        <div style="opacity:0;" class="vl3 line-obj-right"></div>
-
-        <!-- People Icons -->
-        <div style="opacity:0;" class="team_outer line-obj-right" id="alexM">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
-        <div style="opacity:0;" class="team_outer2 line-obj-right" id="alexM">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
-        <div style="opacity:0;" class="team_outer3 line-obj-right" id="alexM">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
-        <div style="opacity:0;" class="team_outer4 line-obj-right" id="alexM">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-        </div>
+        <hr class="right-line line-obj-right">
+		<div class="main3">
+		</div>
     </div>
 </div>
+</br></br></br></br></br></br>
+
+
 
 
 

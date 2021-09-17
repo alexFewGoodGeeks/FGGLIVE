@@ -267,9 +267,12 @@
 
                         <div class="footer-content-social">
                             <h4>Stay Connected:</h4>
-                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-facebook-square fa-2x"></i></a>
-                            <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-twitter-square fa-2x"></i></a>
-                            <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank" style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
+                                    class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
+                                    class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"
+                                style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
                         </div>
 
                     </div>
@@ -310,16 +313,16 @@
 
 
 
-            <!-- Copyright -->
-            <div class="copynote" style="background-color:white;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center" style="color: rgba(128,0,0,1);">
-                            &copy; 2021 FewGoodGeeks. All rights reserved.
-                        </div>
+        <!-- Copyright -->
+        <div class="copynote" style="background-color:white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center" style="color: rgba(128,0,0,1);">
+                        &copy; 2021 FewGoodGeeks. All rights reserved.
                     </div>
                 </div>
             </div>
+        </div>
         <div class="nav pull-right scroll-top">
             <a href="#home" title="Scroll to top"><i class="fa fa-angle-up"></i></a>
         </div>
@@ -339,6 +342,11 @@
     <!-- Custom JavaScript -->
     <script src="assets/js/meet.min.js"></script>
 
+    <!-- Tree Animation Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+
     <script>
     $(window).load(function() {
         $('.letter-jump').each(function(index) {
@@ -348,36 +356,86 @@
         });
 
         // Meet The Geeks Animation
-        $('.animation-img').click(function() {
-            $('.line-obj-left').css('opacity', '1');
-            $('.line-obj-left').addClass('fade-in-line');
+        // $('.animation-img').click(function() {
+        //     $('.line-obj-left').css('opacity', '1');
+        //     $('.line-obj-left').addClass('fade-in-line');
 
-            setTimeout(() => {
-                $('.circle-obj-left').css('opacity', '1');
-                $('.circle-obj-left').addClass('animate-circle-obj-left');
-            }, 2000);
+        //     setTimeout(() => {
+        //         $('.circle-obj-left').css('opacity', '1');
+        //         $('.circle-obj-left').addClass('animate-circle-obj-left');
+        //     }, 2000);
 
-            setTimeout(() => {
-                $('.line-obj-center').css('opacity', '1');
-                $('.line-obj-center').addClass('fade-in-line');
-            }, 3000);
+        //     setTimeout(() => {
+        //         $('.line-obj-center').css('opacity', '1');
+        //         $('.line-obj-center').addClass('fade-in-line');
+        //     }, 3000);
 
-            setTimeout(() => {
-                $('.circle-obj-center').css('opacity', '1');
-                $('.circle-obj-center').addClass('animate-circle-obj-left');
-            }, 4000);
+        //     setTimeout(() => {
+        //         $('.circle-obj-center').css('opacity', '1');
+        //         $('.circle-obj-center').addClass('animate-circle-obj-left');
+        //     }, 4000);
 
-            setTimeout(() => {
-                $('.line-obj-right').css('opacity', '1');
-                $('.line-obj-right').addClass('fade-in-line');
-            }, 5000);
+        //     setTimeout(() => {
+        //         $('.line-obj-right').css('opacity', '1');
+        //         $('.line-obj-right').addClass('fade-in-line');
+        //     }, 5000);
 
-            setTimeout(() => {
-                $('.circle-obj-right').css('opacity', '1');
-                $('.circle-obj-right').addClass('animate-circle-obj-left');
-            }, 6000);
+        //     setTimeout(() => {
+        //         $('.circle-obj-right').css('opacity', '1');
+        //         $('.circle-obj-right').addClass('animate-circle-obj-left');
+        //     }, 6000);
 
-        });
+        // });
+
+
+        $( document ).ready(function() {
+	 $( ".mainbtn" ).click(function() {
+	 $(".treeitem").hide();
+	 $(".line1-2").css({"width":"0px"});
+	 $(".line2-2").css({"width":"0px"});
+	 
+		$(".main2").show("slide", { direction: "right" }, 400, function() {
+			$(".main1").show("slide", { direction: "right" }, 300, function() {
+				$(".point1-1").show("fast", function() {
+				start_middle();
+					$(".line1-1").show("slide", { direction: "down" }, 300, function() {
+						$(".point1-2").show("fast", function() {
+                            $(".point1-4").show(500)
+							
+							$(".line1-2").animate({width: "100px"}, 300, "linear", function() {
+								$(".point1-3").show("fast", function() {
+									$(".line1-4").show("slide", { direction: "down" }, 300, function() {
+                                        $(".line1-5").show(500)
+                                        $(".point1-5").show(500)
+                                        $(".line1-6").show(500)
+										
+									});
+								});
+							});
+						});
+					});
+				});
+			});
+		});
+	});
+	
+	function start_middle(){
+		$(".line2-1").show("slide", { direction: "down" }, 300, function() {
+				$(".point2-2").show();
+				$(".line2-2").animate({width: "100px", color: "yellow"}, 300, "linear", function() {
+						$(".point2-3").show();
+						$(".line2-4").show("slide", { direction: "down" }, 300, function() {
+                            $(".line2-5").animate({width: "100px", color: "red"}, 400, "linear", function() {
+                                $(".point2-4").show();
+                                $(".line2-6").show("slide", { direction: "down"}, 400, function(){
+
+                                });
+                            });
+						});
+				});
+		});
+	}
+});
 
     });
     </script>

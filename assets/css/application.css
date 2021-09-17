@@ -371,365 +371,234 @@ footer .contact-address li {
 .tree-animation {
   height: 200%;
   margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.tree-animation .treeitem {
+  display: none;
+}
+.tree-animation .all {
+  height: 10px;
+  background-color: red;
+  padding: 0px;
+}
+.tree-animation .all .left-line {
+  height: 4px;
+  opacity: 0;
+}
+.tree-animation .all .main1 {
+  width: 114px;
+  /* border: 1px solid black; */
+  height: 4px;
+  right: 92px;
+  position: absolute;
+  bottom: 31px;
+  right: 1px;
+  background-color: #800000;
+}
+.tree-animation .all .main1 .point1-1 {
+  height: 20px;
+  width: 20px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
   position: relative;
 }
-.tree-animation hr {
+.tree-animation .all .main1 .point1-1 .line1-1 {
+  height: 210px;
+  width: 4px;
   background-color: #800000;
-  height: 2px;
-  width: 200px;
-}
-.tree-animation .left-line {
   position: absolute;
-  right: -142px;
-  top: -21px;
+  bottom: 0;
+  left: 8px;
+  z-index: -10;
 }
-.tree-animation .right-line {
-  position: absolute;
-  left: -144px;
-  top: 6px;
-}
-.tree-animation .vl {
-  border-left: 4px solid #800000;
-  height: 517px;
-  position: absolute;
-  bottom: 150px;
-  right: 340px;
-}
-.tree-animation .circle {
-  background-color: #800000;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  right: 43px;
-  top: -12px;
-}
-.tree-animation .left-part-tree .vl {
-  position: absolute;
-  top: -210px;
-  right: 54px;
-  height: 200px;
-}
-.tree-animation .left-part-tree .vl-rotate {
-  position: absolute;
-  top: -132px;
-  right: 98px;
-  height: 200px;
-  transform: rotate(110deg);
-  border-left: 4px solid #800000;
-  height: 100px;
-}
-.tree-animation .left-part-tree .circle2 {
-  background-color: #800000;
-  border-radius: 50%;
-  position: absolute;
-  right: 46px;
-  top: -77px;
-  width: 20px;
+.tree-animation .all .main1 .point1-1 .point1-2 {
   height: 20px;
-}
-.tree-animation .left-part-tree .circle3 {
-  background-color: #800000;
-  border-radius: 50%;
-  position: absolute;
-  right: 48px;
-  top: -145px;
-  width: 15px;
-  height: 15px;
-  z-index: 1;
-}
-.tree-animation .left-part-tree .hr2 {
-  position: absolute;
-  right: -122px;
-  top: -160px;
-  width: 178px;
-}
-.tree-animation .left-part-tree .circle4 {
-  background-color: #800000;
-  border-radius: 50%;
-  position: absolute;
-  right: -124px;
-  top: -147px;
   width: 20px;
-  height: 20px;
-  z-index: 1;
-}
-.tree-animation .left-part-tree .circle5 {
   background-color: #800000;
   border-radius: 50%;
+  margin-top: -10px;
+  bottom: 65px;
+  position: absolute;
+}
+.tree-animation .all .main1 .point1-1 .point1-4 {
+  height: 20px;
   width: 20px;
-  height: 20px;
-  position: absolute;
-  right: 134px;
-  top: -109px;
-}
-.tree-animation .left-part-tree .vl2 {
-  border-left: 4px solid #800000;
-  position: absolute;
-  top: -377px;
-  right: 142px;
-  height: 269px;
-}
-.tree-animation .left-part-tree .vl3 {
-  border-left: 4px solid #800000;
-  position: absolute;
-  top: -266px;
-  right: -116px;
-  height: 127px;
-}
-.tree-animation .left-part-tree .team_outer {
-  background-color: #800000 !important;
-  position: absolute;
-  right: 81px;
-  bottom: 373px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-}
-.tree-animation .left-part-tree .team_outer2 {
-  background-color: #800000 !important;
-  position: absolute;
-  right: -176px;
-  bottom: 262px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-}
-.tree-animation .left-part-tree .team_outer3 {
-  background-color: #800000 !important;
-  position: absolute;
-  right: -7px;
-  bottom: 206px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-}
-.tree-animation .right-part-tree .vl {
-  position: absolute;
-  left: 55px;
-  top: -248px;
-  height: 267px;
-}
-.tree-animation .right-part-tree .circle {
-  position: absolute;
-  left: 43px;
-  top: 16px;
-}
-.tree-animation .right-part-tree .vl-rotate {
-  position: absolute;
-  top: -190px;
-  left: -18px;
-  height: 200px;
-  transform: rotate(120deg);
-  border-left: 4px solid #800000;
-  height: 165px;
-}
-.tree-animation .right-part-tree .circle2 {
   background-color: #800000;
   border-radius: 50%;
+  margin-top: -10px;
+  bottom: 110px;
   position: absolute;
-  left: 47px;
-  top: -77px;
+}
+.tree-animation .all .main1 .point1-1 .point1-5 {
+  height: 20px;
   width: 20px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-top: -10px;
+  bottom: 113px;
+  right: -112px;
+  position: absolute;
+}
+.tree-animation .all .main1 .point1-1 .line1-2 {
+  position: absolute;
+  right: 8px;
+  bottom: 94px;
+  transform: rotate(22deg);
+  border-top: 4px solid #800000;
+  width: 0px;
+  z-index: -10;
+}
+.tree-animation .all .main1 .point1-1 .point1-3 {
   height: 20px;
-}
-.tree-animation .right-part-tree .team_outer {
-  background-color: #800000 !important;
-  position: absolute;
-  left: -3px;
-  bottom: 239px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-}
-.tree-animation .right-part-tree .team_outer2 {
-  background-color: #800000 !important;
-  position: absolute;
-  left: -149px;
-  bottom: 148px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-}
-.tree-animation .right-part-tree .circle3 {
-  background-color: #800000;
-  border-radius: 50%;
-  position: absolute;
-  left: 49px;
-  top: -182px;
-  width: 15px;
-  height: 15px;
-  z-index: 1;
-}
-.tree-animation .right-part-tree .circle4 {
-  background-color: #800000;
-  border-radius: 50%;
-  position: absolute;
-  left: 152px;
-  top: -183px;
   width: 20px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-top: -10px;
+  bottom: 108px;
+  right: 95px;
+  position: absolute;
+}
+.tree-animation .all .main1 .point1-1 .line1-4 {
+  height: 210px;
+  width: 4px;
+  background-color: #800000;
+  position: absolute;
+  bottom: 126px;
+  right: 103px;
+  z-index: -10;
+}
+.tree-animation .all .main1 .point1-1 .line1-5 {
+  width: 114px;
+  /* border: 1px solid black; */
+  height: 4px;
+  right: 92px;
+  position: absolute;
+  bottom: 120px;
+  right: -103px;
+  background-color: #800000;
+}
+.tree-animation .all .main1 .point1-1 .line1-6 {
+  height: 210px;
+  width: 4px;
+  background-color: #800000;
+  position: absolute;
+  bottom: 126px;
+  right: -103px;
+  z-index: -10;
+}
+.tree-animation .center-part-tree {
+  height: 10px;
+  background-color: yellow;
+  text-align: center;
+  padding: 0px;
+}
+.tree-animation .center-part-tree .main2 {
+  width: 50%;
+  height: 4px;
+  background-color: #800000;
+  position: absolute;
+  top: -25px;
+}
+.tree-animation .center-part-tree .animation-img {
+  margin-top: -70px;
+  width: 300px;
+  position: relative;
+}
+.tree-animation .center-part-tree .point1-1 {
   height: 20px;
-  z-index: 1;
-}
-.tree-animation .right-part-tree .hr2 {
-  position: absolute;
-  left: 58px;
-  top: -196px;
-  width: 104px;
-}
-.tree-animation .right-part-tree .vl2 {
-  border-left: 4px solid #800000;
-  position: absolute;
-  bottom: 176px;
-  left: 160px;
-  height: 240px;
-}
-.tree-animation .right-part-tree .vl3 {
-  border-left: 4px solid #800000;
-  position: absolute;
-  bottom: 430px;
-  left: 300px;
-  height: 169px;
-}
-.tree-animation .right-part-tree .circle5 {
-  background-color: #800000;
-  border-radius: 50%;
-  width: 22px;
-  height: 22px;
-  position: absolute;
-  left: 151px;
-  top: -332px;
-}
-.tree-animation .right-part-tree .circle6 {
-  background-color: #800000;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  left: 290px;
-  top: -446px;
-}
-.tree-animation .right-part-tree .vl-rotate2 {
-  position: absolute;
-  bottom: 292px;
-  left: 235px;
-  height: 200px;
-  transform: rotate(50deg);
-  border-left: 4px solid #800000;
-  height: 175px;
-}
-.tree-animation .right-part-tree .team_outer3 {
-  background-color: #800000 !important;
-  position: absolute;
-  left: 101px;
-  bottom: 405px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-}
-.tree-animation .right-part-tree .team_outer4 {
-  background-color: #800000 !important;
-  position: absolute;
-  left: 243px;
-  bottom: 530px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-}
-.tree-animation .center-part-tree .center-line {
-  position: absolute;
-  right: 342px;
-  top: -57px;
-  width: 70px;
-}
-.tree-animation .center-part-tree .circle {
-  background-color: #800000;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  right: 329px;
-  top: -46px;
-}
-.tree-animation .center-part-tree .circle2 {
-  background-color: #800000;
-  border-radius: 50%;
   width: 20px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -130px;
+  position: relative;
+  z-index: -10;
+}
+.tree-animation .center-part-tree .point1-1 .line2-1 {
+  height: 410px;
+  width: 4px;
+  background-color: #800000;
+  margin: auto;
+  bottom: 10px;
+  right: 28px;
+  position: absolute;
+}
+.tree-animation .center-part-tree .point1-1 .point2-2 {
   height: 20px;
-  position: absolute;
-  top: -45px;
-  right: 411px;
-}
-.tree-animation .center-part-tree .vl2 {
-  border-left: 4px solid #800000;
-  position: absolute;
-  bottom: 245px;
-  right: 418px;
-  height: 273px;
-}
-.tree-animation .center-part-tree .circle3 {
+  width: 20px;
   background-color: #800000;
   border-radius: 50%;
-  width: 21px;
-  height: 21px;
+  margin-top: -10px;
+  bottom: 100px;
+  right: 20px;
   position: absolute;
-  right: 331px;
-  top: -126px;
 }
-.tree-animation .center-part-tree .vl-rotate {
+.tree-animation .center-part-tree .point1-1 .line2-2 {
   position: absolute;
-  bottom: 292px;
-  right: 272px;
-  height: 200px;
-  transform: rotate(50deg);
-  border-left: 4px solid #800000;
-  height: 175px;
+  right: 31px;
+  bottom: 129px;
+  transform: rotate(22deg);
+  border-top: 4px solid #800000;
+  width: 0px;
+  z-index: -10;
 }
-.tree-animation .center-part-tree .vl3 {
-  border-left: 4px solid #800000;
+.tree-animation .center-part-tree .point1-1 .line2-5 {
   position: absolute;
-  bottom: 428px;
-  right: 202px;
-  height: 118px;
+  right: -71px;
+  bottom: 124px;
+  transform: rotate(162deg);
+  border-top: 4px solid #800000;
+  width: 0px;
+  z-index: -10;
 }
-.tree-animation .center-part-tree .circle4 {
+.tree-animation .center-part-tree .point1-1 .point2-3 {
+  height: 20px;
+  width: 20px;
   background-color: #800000;
   border-radius: 50%;
-  width: 21px;
-  height: 21px;
+  margin-top: -10px;
+  bottom: 137px;
+  right: 114px;
   position: absolute;
-  right: 193px;
-  top: -236px;
 }
-.tree-animation .center-part-tree .team_outer {
-  background-color: #800000 !important;
+.tree-animation .center-part-tree .point1-1 .line2-4 {
+  height: 150px;
+  width: 4px;
+  background-color: #800000;
   position: absolute;
-  right: 359px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-  bottom: 503px;
+  bottom: 137px;
+  right: 122px;
+  z-index: -10;
 }
-.tree-animation .center-part-tree .team_outer2 {
-  background-color: #800000 !important;
+.tree-animation .center-part-tree .point1-1 .line2-6 {
+  height: 150px;
+  width: 4px;
+  background-color: #800000;
   position: absolute;
-  right: 284px;
-  width: 122px;
-  height: 148px;
-  border-radius: 50%;
-  bottom: 661px;
+  bottom: 137px;
+  right: -68px;
+  z-index: -10;
 }
-.tree-animation .center-part-tree .team_outer3 {
-  background-color: #800000 !important;
-  position: absolute;
-  right: 147px;
-  width: 122px;
-  height: 148px;
+.tree-animation .center-part-tree .point1-1 .point2-4 {
+  height: 20px;
+  width: 20px;
+  background-color: #800000;
   border-radius: 50%;
-  bottom: 525px;
+  margin-top: -10px;
+  bottom: 133px;
+  right: -76px;
+  position: absolute;
+}
+.tree-animation .right-part-tree {
+  height: 10px;
+  background-color: green;
+  padding: 0px;
+}
+.tree-animation .right-part-tree .right-line {
+  height: 4px;
+  opacity: 0;
 }
 .fade-in-line {
   transition: all 3s ease-in-out;
