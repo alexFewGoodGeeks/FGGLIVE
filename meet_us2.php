@@ -396,26 +396,48 @@
 	 
 		$(".main2").show("slide", { direction: "right" }, 400, function() {
 			$(".main1").show("slide", { direction: "right" }, 300, function() {
-				$(".point1-1").show("fast", function() {
-				start_middle();
-					$(".line1-1").show("slide", { direction: "down" }, 300, function() {
-						$(".point1-2").show("fast", function() {
-                            $(".point1-4").show(500)
-							
-							$(".line1-2").animate({width: "100px"}, 300, "linear", function() {
-								$(".point1-3").show("fast", function() {
-									$(".line1-4").show("slide", { direction: "down" }, 300, function() {
-                                        $(".line1-5").show(500)
-                                        $(".point1-5").show(500)
-                                        $(".line1-6").show(500)
-										
-									});
-								});
-							});
-						});
-					});
+                $(".main4").show("slide", { direction: "right" }, 300, function() {
+                    $(".point1-1").show("fast", function() {
+                    start_middle();
+                        $(".line1-1").show("slide", { direction: "down" }, 300, function() {
+                            $(".point1-2").show("fast", function() {
+                                $(".point1-4").show(500)
+
+
+                                $(".line1-2").animate({width: "100px"}, 300, "linear", function() {
+                                        $(".point1-3").show("fast", function() {
+                                            $(".line1-4").show("slide", { direction: "down" }, 300, function() {
+                                                $(".line1-5").show(500)
+                                                $(".point1-5").show(500)
+                                                $(".line1-6").show(500)
+
+                                            $(".main3").show("slide", { direction: "right" }, 300, function() {
+                                                $(".line3-2").animate({width: "100px"}, 300, "linear", function(){
+                                                    $(".line3-3").animate({width: "100px"}, 300, "linear", function(){
+                                                        $(".point3-1").show(200)
+                                                        $(".line3-1").show(200)
+                                                        $(".point3-2").show(500)
+                                                        $(".point3-3").show(500)
+                                                        $(".point3-4").show(500)
+                                                        $(".line3-4").show(500)
+                                                        $(".line3-5").show(500)
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
 				});
-			});
+            
+			}); // eof .main1
+            
+            // $(".main3").show("slide", { direction: "right" }, 300, function() {
+                
+            //}); // eof .main3
+        
 		});
 	});
 	

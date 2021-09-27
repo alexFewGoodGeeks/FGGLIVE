@@ -9,7 +9,7 @@
     // Left Part Tree
     .all{
         height:10px; 
-        background-color:red; 
+        // background-color:red; 
         padding:0px;
 
         .left-line{
@@ -136,7 +136,7 @@
     // Center Part Tree
     .center-part-tree{
         height:10px; 
-        background-color:yellow;
+        // background-color:yellow;
         text-align:center; 
         padding:0px;
 
@@ -146,6 +146,15 @@
             background-color: @dark-red-color; 
             position: absolute; 
             top: -25px;
+        }
+
+        .main4{
+            width: 50%;
+            height: 4px;
+            background-color: #800000;
+            position: absolute;
+            top: 1px;
+            right: -149px;
         }
 
         .animation-img{
@@ -253,13 +262,120 @@
     // Right Part Tree
     .right-part-tree{
         height:10px; 
-        background-color:green; 
+        // background-color:green; 
         padding:0px;
 
         .right-line{
             height:4px; 
             opacity:0;
         }
+
+        .main3{
+            width: 114px;
+            /* border: 1px solid black; */
+            height: 4px;
+            right: 32px;
+            position: absolute;
+            bottom: 5px;
+            right: 676px;
+            // background-color: #800000;
+            background-color: white;
+            z-index: -100;
+
+            .point3-1{
+                height: 20px;
+                width: 20px;
+                background-color: #800000;
+                border-radius: 50%;
+                margin-top: -10px;
+                bottom: -6px;
+                right: -39px;
+                position: absolute;
+    
+                .line3-1{
+                    height: 300px;
+                    width: 4px; 
+                    background-color: @dark-red-color; 
+                    position: absolute; 
+                    bottom: 0; 
+                    left: 9px;
+                    z-index:-10;
+                }
+    
+                .point3-2{
+                    height: 20px;
+                    width: 20px;
+                    background-color: #800000;
+                    border-radius: 50%;
+                    margin-top: -10px;
+                    bottom: 110px;
+                    right: 0px;
+                    position: absolute;
+                }
+    
+                .line3-2{
+                    position: absolute; 
+                    right: 6px; 
+                    bottom: 135px; 
+                    transform: rotate(22deg);
+                    border-top: 4px solid #800000; 
+                    width:0px; 
+                    z-index:-10;
+                }
+    
+                .line3-3{
+                    position: absolute; 
+                    right: -86px; 
+                    bottom: 132px; 
+                    transform: rotate(163deg);
+                    border-top: 4px solid #800000; 
+                    width:0px; 
+                    z-index:-10;
+                }
+    
+                .point3-3{
+                    height: 20px;
+                    width: 20px;
+                    background-color: #800000;
+                    border-radius: 50%;
+                    margin-top: -10px;
+                    bottom: 146px;
+                    right: 89px;
+                    position: absolute;
+                }
+    
+                .point3-4{
+                    height: 20px;
+                    width: 20px;
+                    background-color: #800000;
+                    border-radius: 50%;
+                    margin-top: -10px;
+                    bottom: 141px;
+                    right: -92px;
+                    position: absolute;
+                }
+    
+                .line3-4{
+                    height: 230px;
+                    width: 4px;
+                    background-color: #800000;
+                    position: absolute;
+                    bottom: 143px;
+                    left: 99px;
+                    z-index: -10;
+                }
+    
+                .line3-5{
+                    height: 230px;
+                    width: 4px;
+                    background-color: #800000;
+                    position: absolute;
+                    bottom: 151px;
+                    left: -81px;
+                    z-index: -10;
+                }
+            }
+        }        
     }
 }   
 
