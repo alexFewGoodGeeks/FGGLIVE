@@ -442,8 +442,8 @@ footer .contact-address li {
 .tree-animation .all .main1 .point1-1 .line1-2 {
   position: absolute;
   right: 8px;
-  bottom: 94px;
-  transform: rotate(22deg);
+  bottom: 74px;
+  /* transform: rotate(22deg); */
   border-top: 4px solid #800000;
   width: 0px;
   z-index: -10;
@@ -454,7 +454,7 @@ footer .contact-address li {
   background-color: #800000;
   border-radius: 50%;
   margin-top: -10px;
-  bottom: 108px;
+  bottom: 66px;
   right: 95px;
   position: absolute;
 }
@@ -463,8 +463,8 @@ footer .contact-address li {
   width: 4px;
   background-color: #800000;
   position: absolute;
-  bottom: 126px;
-  right: 103px;
+  bottom: 78px;
+  right: 104px;
   z-index: -10;
 }
 .tree-animation .all .main1 .point1-1 .line1-5 {
@@ -505,6 +505,7 @@ footer .contact-address li {
   position: absolute;
   top: 1px;
   right: -149px;
+  z-index: -10;
 }
 .tree-animation .center-part-tree .animation-img {
   margin-top: -70px;
@@ -541,11 +542,21 @@ footer .contact-address li {
   right: 20px;
   position: absolute;
 }
+.tree-animation .center-part-tree .point1-1 .point2-5 {
+  height: 20px;
+  width: 20px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-top: -10px;
+  bottom: 195px;
+  right: 20px;
+  position: absolute;
+}
 .tree-animation .center-part-tree .point1-1 .line2-2 {
   position: absolute;
   right: 31px;
-  bottom: 129px;
-  transform: rotate(22deg);
+  bottom: 109px;
+  /* transform: rotate(22deg); */
   border-top: 4px solid #800000;
   width: 0px;
   z-index: -10;
@@ -553,8 +564,8 @@ footer .contact-address li {
 .tree-animation .center-part-tree .point1-1 .line2-5 {
   position: absolute;
   right: -71px;
-  bottom: 124px;
-  transform: rotate(162deg);
+  bottom: 203px;
+  /* transform: rotate(162deg); */
   border-top: 4px solid #800000;
   width: 0px;
   z-index: -10;
@@ -565,7 +576,7 @@ footer .contact-address li {
   background-color: #800000;
   border-radius: 50%;
   margin-top: -10px;
-  bottom: 137px;
+  bottom: 101px;
   right: 114px;
   position: absolute;
 }
@@ -574,8 +585,8 @@ footer .contact-address li {
   width: 4px;
   background-color: #800000;
   position: absolute;
-  bottom: 137px;
-  right: 122px;
+  bottom: 117px;
+  right: 123px;
   z-index: -10;
 }
 .tree-animation .center-part-tree .point1-1 .line2-6 {
@@ -583,7 +594,7 @@ footer .contact-address li {
   width: 4px;
   background-color: #800000;
   position: absolute;
-  bottom: 137px;
+  bottom: 204px;
   right: -68px;
   z-index: -10;
 }
@@ -593,7 +604,7 @@ footer .contact-address li {
   background-color: #800000;
   border-radius: 50%;
   margin-top: -10px;
-  bottom: 133px;
+  bottom: 195px;
   right: -76px;
   position: absolute;
 }
@@ -612,9 +623,10 @@ footer .contact-address li {
   right: 32px;
   position: absolute;
   bottom: 5px;
-  right: 676px;
+  /* right: 676px; */
   background-color: white;
   z-index: -100;
+  left: 15px;
 }
 .tree-animation .right-part-tree .main3 .point3-1 {
   height: 20px;
@@ -623,11 +635,12 @@ footer .contact-address li {
   border-radius: 50%;
   margin-top: -10px;
   bottom: -6px;
-  right: -39px;
+  /* right: -39px; */
   position: absolute;
+  left: 120px;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .line3-1 {
-  height: 300px;
+  height: 510px;
   width: 4px;
   background-color: #800000;
   position: absolute;
@@ -645,11 +658,21 @@ footer .contact-address li {
   right: 0px;
   position: absolute;
 }
+.tree-animation .right-part-tree .main3 .point3-1 .point3-5 {
+  height: 20px;
+  width: 20px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-top: -10px;
+  bottom: 205px;
+  right: 0px;
+  position: absolute;
+}
 .tree-animation .right-part-tree .main3 .point3-1 .line3-2 {
   position: absolute;
   right: 6px;
-  bottom: 135px;
-  transform: rotate(22deg);
+  bottom: 118px;
+  /* transform: rotate(22deg); */
   border-top: 4px solid #800000;
   width: 0px;
   z-index: -10;
@@ -657,8 +680,7 @@ footer .contact-address li {
 .tree-animation .right-part-tree .main3 .point3-1 .line3-3 {
   position: absolute;
   right: -86px;
-  bottom: 132px;
-  transform: rotate(163deg);
+  bottom: 213px;
   border-top: 4px solid #800000;
   width: 0px;
   z-index: -10;
@@ -669,7 +691,7 @@ footer .contact-address li {
   background-color: #800000;
   border-radius: 50%;
   margin-top: -10px;
-  bottom: 146px;
+  bottom: 111px;
   right: 89px;
   position: absolute;
 }
@@ -679,7 +701,7 @@ footer .contact-address li {
   background-color: #800000;
   border-radius: 50%;
   margin-top: -10px;
-  bottom: 141px;
+  bottom: 205px;
   right: -92px;
   position: absolute;
 }
@@ -688,7 +710,7 @@ footer .contact-address li {
   width: 4px;
   background-color: #800000;
   position: absolute;
-  bottom: 143px;
+  bottom: 214px;
   left: 99px;
   z-index: -10;
 }
@@ -697,8 +719,8 @@ footer .contact-address li {
   width: 4px;
   background-color: #800000;
   position: absolute;
-  bottom: 151px;
-  left: -81px;
+  bottom: 127px;
+  left: -82px;
   z-index: -10;
 }
 .fade-in-line {
@@ -710,4 +732,29 @@ footer .contact-address li {
 .animation-img {
   width: 350px;
   height: 150px;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #800000;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px #800000;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 #800000;
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #800000;
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px #800000;
+    box-shadow: 0 0 0 10px #800000;
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 #800000;
+    box-shadow: 0 0 0 0 #800000;
+  }
 }

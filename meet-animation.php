@@ -33,12 +33,21 @@
             <div class="point2-2 treeitem"></div>
             <div class="line2-2"></div>
             <div class="point2-3 treeitem"></div>
+            <div class="point2-5 treeitem"></div>
             <div class="line2-4 treeitem"></div>
             <div class="line2-5"></div>
             <div class="point2-4 treeitem"></div>
             <div class="line2-6 treeitem"></div>
         </div>
+
+        <!-- <div class="pulsing-dots">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+        </div> -->
     </div>
+
+
 
     <!-- Right Part Of The Tree -->
     <div class="col-md-4 right-part-tree">
@@ -47,6 +56,7 @@
             <div class="point3-1 treeitem">
                 <div class="line3-1 treeitem"></div>
                 <div class="point3-2 treeitem"></div>
+                <div class="point3-5 treeitem"></div>
                 <div class="line3-2"></div>
                 <div class="line3-3"></div>
                 <div class="point3-3 treeitem"></div>
