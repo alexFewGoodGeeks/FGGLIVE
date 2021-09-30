@@ -40,11 +40,10 @@
             <div class="line2-6 treeitem"></div>
         </div>
 
-        <!-- <div class="pulsing-dots">
-            <div class="dot-1"></div>
-            <div class="dot-2"></div>
-            <div class="dot-3"></div>
-        </div> -->
+        <div class="dot-1"></div>
+        <div class="dot-2"></div>
+        <div class="dot-3"></div>
+        
     </div>
 
 

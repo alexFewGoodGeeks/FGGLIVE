@@ -491,6 +491,42 @@ footer .contact-address li {
   text-align: center;
   padding: 0px;
 }
+.tree-animation .center-part-tree .dot-1 {
+  height: 10px;
+  width: 10px;
+  background-color: #800000;
+  border-radius: 50%;
+  position: relative;
+  bottom: 107px;
+  left: 161px;
+  display: block;
+  cursor: pointer;
+  animation: pulse 3s infinite;
+}
+.tree-animation .center-part-tree .dot-2 {
+  height: 10px;
+  width: 10px;
+  background-color: #800000;
+  border-radius: 50%;
+  position: relative;
+  bottom: 174px;
+  left: 293px;
+  display: block;
+  cursor: pointer;
+  animation: pulse 3s infinite;
+}
+.tree-animation .center-part-tree .dot-3 {
+  height: 10px;
+  width: 10px;
+  background-color: #800000;
+  border-radius: 50%;
+  position: relative;
+  bottom: 102px;
+  left: 470px;
+  display: block;
+  cursor: pointer;
+  animation: pulse 3s infinite;
+}
 .tree-animation .center-part-tree .main2 {
   width: 50%;
   height: 4px;
