@@ -70,15 +70,24 @@ $(window).scroll(function () {
 
 // Project Slider Boxes
 $(".project-data-item").click(function() {
-  $(".project-data-item").removeClass("active");
-  $(this).addClass("active");
-    var currentProjectId = $(this).data('project-id');
+  var currentProjectId = $(this).data('project-id');
+
+  if($(this).hasClass("item-active")){
+    $(this).removeClass("item-active")
+    $(".project-item-wrapper").removeClass("sliderSlideDown");
+    $(".project-item-wrapper").addClass("hide");
+  }
+
+  else{
+    $(".project-data-item").removeClass("item-active");
+    $(this).addClass("item-active");
 
     $(".project-item-wrapper").addClass("hide");
   
     $(".project-item-wrapper[data-project-item-id='"+currentProjectId+"']")
       .removeClass("hide")
       .addClass("sliderSlideDown")
+  }
 });
 
 
@@ -86,15 +95,26 @@ $(".project-data-item").click(function() {
 $(".services-section-1").click(function(){
   var dataSectionId =  $(this).data('section-id');
 
-  $(".services-section-11").addClass("fixed-height");
-  $(".services-box").css("margin-top", "-525px");
+  if($(this).hasClass("active")){
+    $(this).removeClass("active")
+    $(".services-section-11").removeClass("fixed-height");
+    $(".services-section").addClass("hide");
+  }
 
-  $(".services-box").addClass("hide");
-  $(".services-section").removeClass("hide");
-  
-  $(".services-box[data-section-item-id='"+dataSectionId+"']")
-    .removeClass("hide")
-    .addClass("sliderSlideDown")
+  else{
+    $(".services-section-1").removeClass("active");
+    $(this).addClass("active");
+
+    $(".services-section-11").addClass("fixed-height");
+    $(".services-box").css("margin-top", "-613px");
+
+    $(".services-box").addClass("hide");
+    $(".services-section").removeClass("hide");
+    
+    $(".services-box[data-section-item-id='"+dataSectionId+"']")
+      .removeClass("hide")
+      .addClass("sliderSlideDown")
+  }
 });
 
 

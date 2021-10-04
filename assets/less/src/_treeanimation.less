@@ -1,5 +1,5 @@
 .tree-animation{
-    height: 200%;
+    // height: 200%;
     margin-top: 60px;
 
     .treeitem{
@@ -140,44 +140,48 @@
         text-align:center; 
         padding:0px;
 
+        // Pulsing Dots
+        .logo-div{
+            margin: auto;
+            width: fit-content;
+            .dot-1{
+                height: 10px;
+                width: 10px;
+                background-color: #800000;
+                border-radius: 50%;
+                position: relative;
+                bottom: 107px;
+                left: -9px;
+                display: block;
+                cursor: pointer;
+                animation: pulse 3s infinite;
+            }
         
-        .dot-1{
-            height: 10px;
-            width: 10px;
-            background-color: #800000;
-            border-radius: 50%;
-            position: relative;
-            bottom: 107px;
-            left: 161px;
-            display: block;
-            cursor: pointer;
-            animation: pulse 3s infinite;
-        }
-    
-        .dot-2{
-            height: 10px;
-            width: 10px;
-            background-color: #800000;
-            border-radius: 50%;
-            position: relative;
-            bottom: 174px;
-            left: 293px;
-            display: block;
-            cursor: pointer;
-            animation: pulse 3s infinite;
-        }
-    
-        .dot-3{
-            height: 10px;
-            width: 10px;
-            background-color: #800000;
-            border-radius: 50%;
-            position: relative;
-            bottom: 102px;
-            left: 470px;
-            display: block;
-            cursor: pointer;
-            animation: pulse 3s infinite;
+            .dot-2{
+                height: 10px;
+                width: 10px;
+                background-color: #800000;
+                border-radius: 50%;
+                position: relative;
+                bottom: 174px;
+                left: 125px;
+                display: block;
+                cursor: pointer;
+                animation: pulse 3s infinite;
+            }
+        
+            .dot-3{
+                height: 10px;
+                width: 10px;
+                background-color: #800000;
+                border-radius: 50%;
+                position: relative;
+                bottom: 102px;
+                left: 302px;
+                display: block;
+                cursor: pointer;
+                animation: pulse 3s infinite;
+            }
         }
         
 

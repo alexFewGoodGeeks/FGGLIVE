@@ -357,7 +357,7 @@ footer .contact-address li {
   background-color: black !important;
 }
 .overlay {
-  background-color: #800000 !important;
+  background-color: rgba(47,47,47,1) !important;
   /* Primary color, can be changed via colors.css */
 }
 .logo-left-corner {
@@ -369,7 +369,6 @@ footer .contact-address li {
   /* Primary color, can be changed via colors.css */
 }
 .tree-animation {
-  height: 200%;
   margin-top: 60px;
 }
 .tree-animation .treeitem {
@@ -491,38 +490,42 @@ footer .contact-address li {
   text-align: center;
   padding: 0px;
 }
-.tree-animation .center-part-tree .dot-1 {
+.tree-animation .center-part-tree .logo-div {
+  margin: auto;
+  width: fit-content;
+}
+.tree-animation .center-part-tree .logo-div .dot-1 {
   height: 10px;
   width: 10px;
   background-color: #800000;
   border-radius: 50%;
   position: relative;
   bottom: 107px;
-  left: 161px;
+  left: -9px;
   display: block;
   cursor: pointer;
   animation: pulse 3s infinite;
 }
-.tree-animation .center-part-tree .dot-2 {
+.tree-animation .center-part-tree .logo-div .dot-2 {
   height: 10px;
   width: 10px;
   background-color: #800000;
   border-radius: 50%;
   position: relative;
   bottom: 174px;
-  left: 293px;
+  left: 125px;
   display: block;
   cursor: pointer;
   animation: pulse 3s infinite;
 }
-.tree-animation .center-part-tree .dot-3 {
+.tree-animation .center-part-tree .logo-div .dot-3 {
   height: 10px;
   width: 10px;
   background-color: #800000;
   border-radius: 50%;
   position: relative;
   bottom: 102px;
-  left: 470px;
+  left: 302px;
   display: block;
   cursor: pointer;
   animation: pulse 3s infinite;

@@ -390,9 +390,13 @@
 
         $( document ).ready(function() {
 	 $( ".mainbtn" ).click(function() {
-	 $(".treeitem").hide();
-	 $(".line1-2").css({"width":"0px"});
-	 $(".line2-2").css({"width":"0px"});
+        // $(".dot-1").hide();
+        // $(".dot-2").hide();
+        // $(".dot-3").hide();
+
+        $(".treeitem").hide();
+        $(".line1-2").css({"width":"0px"});
+        $(".line2-2").css({"width":"0px"});
 	 
 		$(".main2").show("slide", { direction: "right" }, 400, function() {
 			$(".main1").show("slide", { direction: "right" }, 300, function() {

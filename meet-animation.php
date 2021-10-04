@@ -24,8 +24,12 @@
     <div class="col-md-4 center-part-tree">
         <div class="main2 treeitem">
         </div>
-        <div class="">
+
+        <div class="logo-div">
             <img class="mainbtn animation-img" src="assets/images/meetUsLogo.png" alt="">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
         </div>
         <div class="main4 treeitem"></div>
         <div class="point1-1 treeitem">
@@ -40,9 +44,7 @@
             <div class="line2-6 treeitem"></div>
         </div>
 
-        <div class="dot-1"></div>
-        <div class="dot-2"></div>
-        <div class="dot-3"></div>
+
         
     </div>
 
