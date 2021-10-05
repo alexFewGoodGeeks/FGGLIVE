@@ -102,10 +102,10 @@
                 <nav class="overlay-menu">
                     <ul>
                         <li><a href="#about">About us</a></li>
-                        <li><a href="#products">Core Values</a></li>
                         <li><a href="#services">What we do</a></li>
-                        <li><a href="scidesign/">Scientific Design</a></li>
+                        <li><a href="#products">Core Values</a></li>
                         <li><a href="#testimonials">Portfolio</a></li>
+                        <li><a href="scidesign/">Scientific Design</a></li>
                         <li><a href="#partners">Partners</a></li>
                         <li><a href="join_us.html">Join Us</a></li>
                         <li><a href="meet_us2.php">Meet The Geeks</a></li>
@@ -367,39 +367,67 @@
 
     <hr class="footer-hr" style="height:2px;border:none;color:rgba(128,0,0,1);background-color:rgba(128,0,0,1)">
 
-    <!-- Footer contact section -->
-    <footer>
-        <div class="logo-footer">
-        <img src="assets/images/FGG_Logo_BlackRed 280616.png">
+        <!-- Footer -->
+        <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 segment">
+                    <h2>
+                        <img src="assets/images/FGG-logo-thumbnail.jpg" height="600" width="274"
+                            onerror="this.src='assets/images/FGG_Logo_End.png'; this.onerror=null;"
+                            alt="GEEKS provide a universal FIX, everything we touch simply CLICKS." title=""
+                            class="img-responsive final-logo">
+                    </h2>
+                </div>
+            </div>
         </div>
-        <a class="anchor" id="contact"></a>
-        <section class="contact content-section no-bottom-pad">
-            <div class="container">
-                <div class="row form-container">
-                    <div class="col-md-6 col-sm-12 contact-section">
-                        <div class="col-md-12 col-sm-6 contact-address">
-                            <ul>
-                                <li><span>Address:</span><br>Metsälinnunreitti 2, J097, <br> 02660, Espoo <br> Finland</li>
-                                <li><span>Email:</span><br>contact@fewgoodgeeks.com</li>
-                                <li><span>Phone:</span></br>+389 70 259 251</li>
-                            </ul>
-                           
-                            <div class="footer-content-social">
-                                <h4>Stay Connected:</h4>
-                                <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-facebook-square fa-2x"></i></a>
-                                <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i class="fa fa-twitter-square fa-2x"></i></a>
-                                <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank" style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                            </div>
 
+
+        <a class="anchor" id="contact" style="display: block; position: relative; top: -70px; visibility: hidden;"></a>
+        <section class="contact content-section no-bottom-pad" style="padding: 10px 0; z-index: 1; padding-top: 0;">
+            <div class="container" style="padding: 0;">
+                <div class="form-container" style="display: block;">
+
+                    <div class="col-md-4 col-sm-12 contact-section"
+                        style="display: inline-block; float: right; text-align: center; padding-top: 50px;">
+
+                        <div class="pull-left col-md-12 col-sm-12 col-xs-12">
+                            <h3 style="color: black; margin-bottom: 0;"><b>Address</b></h3>
+                            <h3>Metsälinnunreitti 2, J097,
+                                <br />02660, Espoo
+                                <br />Finland
+                            </h3>
                         </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12 contact-address">
+                            <h3 style="color: black; margin-bottom: 0;"><b>Email</b></h3>
+                            <h3>contact@fewgoodgeeks.com</h3>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12 contact-address">
+                            <h3 style="color: black; margin-bottom: 0;"><b>Phone</b></h3>
+                            <h3>+389 70 259 251</h3>
+                        </div>
+
+                        <div class="footer-content-social">
+                            <h4>Stay Connected:</h4>
+                            <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
+                                    class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
+                                    class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"
+                                style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        </div>
+                        
                     </div>
 
-                    <div class="col-md-6 col-sm-12 col-xs-12 contact-form">
+                    <div class="col-md-8 col-sm-12 col-xs-12 contact-form"
+                        style="padding-top: 10px;display: inline-block;">
                         <h3>Drop us a line</h3>
                         <form class="ajax-form" id="contactForm" method="post" action="assets/php/contact.php">
-                            <div class="form-group">
+                            <div class="form-group" style="">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Your Name..."
-                                    value="" required>
+                                    value="" required style="">
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" id="email" name="email"
@@ -411,32 +439,39 @@
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" rows="4" name="message" placeholder="Your message..."
-                                    required></textarea>
+                                    required style="padding: 20px 10px; padding-top: 10px;"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" name="submit" class="btn btn-default"><i
-                                        class="fa fa-paper-plane fa-fw"></i> Send</button>
+                                <button type="submit" name="submit" class="btn btn-default" style="min-width: 100%; display: inline-block;
+                                        min-height: 100%; font-size: 20px;"><i class="fa fa-paper-plane fa-fw"></i>
+                                    Send</button>
                             </div>
                         </form>
                     </div>
-                    
 
                 </div>
             </div>
 
-            <!-- Copyright -->
-            <div class="copynote" style="background-color:white;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center" style="color: rgba(128,0,0,1);">
-                            &copy; 2021 FewGoodGeeks. All rights reserved.
-                        </div>
+        </section>
+
+
+
+
+        <!-- Copyright -->
+        <div class="copynote" style="background-color:white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center" style="color: rgba(128,0,0,1);">
+                        &copy; 2021 FewGoodGeeks. All rights reserved.
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="nav pull-right scroll-top">
+            <a href="#home" title="Scroll to top"><i class="fa fa-angle-up"></i></a>
+        </div>
     </footer>
-    <!-- EOF Footer -->
+    <!-- eof footer -->
 
 
 

@@ -172,46 +172,7 @@
             </div>
         </div>
     </section>
-    <!-- <section id="meet_us" class="meet_us content-section">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-4 col-md-push-2">
-                            <div class="row team_item text-center">
-                                <div class="team_outer" id="alexM">
-                                    <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
-                                </div>
-                                <h4>ALEX MISHACHKOVSKI</h4>
-                                <p>CSO</p>
-                                <figcaption>
-                                    <ul>
-                                        <li><a href="mailto:alex@fewgoodgeeks.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://mk.linkedin.com/in/aleksandarmisackovski" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-                                    </ul>
-                                </figcaption>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-md-push-2">
-                            <div class="row team_item text-center">
-                                <div class="team_outer" id="igorV">
-                                    <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/IgorV.svg"></object>
-                                </div>
-                                <h4>IGOR VELESKI</h4>
-                                <p>Web Designer</p>
-                                <figcaption>
-                                    <ul>
-                                        <li><a href="mailto:vigorski@fewgoodgeeks.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/igor-veleski-19814759/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-                                        <li><a href="https://www.behance.net/veleigor54e9" target="_blank"><i class="fa fa-behance-square fa-2x" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </figcaption>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section> -->
+    
 
     <!-- Tree Animation Section -->
     <section id="the-tree">
@@ -220,7 +181,6 @@
             ?>
     </section>
     <hr style="background-color: #800000; height: 1px;">
-
 
 
     <!-- Footer -->
@@ -267,9 +227,9 @@
 
                         <div class="footer-content-social">
                             <h4>Stay Connected:</h4>
-                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
-                                    class="fa fa-facebook-square fa-2x"></i></a>
                             <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
+                                    class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
                                     class="fa fa-twitter-square fa-2x"></i></a>
                             <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"
                                 style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
@@ -354,38 +314,6 @@
                 $(this).addClass("animated").dequeue();
             });
         });
-
-        // Meet The Geeks Animation
-        // $('.animation-img').click(function() {
-        //     $('.line-obj-left').css('opacity', '1');
-        //     $('.line-obj-left').addClass('fade-in-line');
-
-        //     setTimeout(() => {
-        //         $('.circle-obj-left').css('opacity', '1');
-        //         $('.circle-obj-left').addClass('animate-circle-obj-left');
-        //     }, 2000);
-
-        //     setTimeout(() => {
-        //         $('.line-obj-center').css('opacity', '1');
-        //         $('.line-obj-center').addClass('fade-in-line');
-        //     }, 3000);
-
-        //     setTimeout(() => {
-        //         $('.circle-obj-center').css('opacity', '1');
-        //         $('.circle-obj-center').addClass('animate-circle-obj-left');
-        //     }, 4000);
-
-        //     setTimeout(() => {
-        //         $('.line-obj-right').css('opacity', '1');
-        //         $('.line-obj-right').addClass('fade-in-line');
-        //     }, 5000);
-
-        //     setTimeout(() => {
-        //         $('.circle-obj-right').css('opacity', '1');
-        //         $('.circle-obj-right').addClass('animate-circle-obj-left');
-        //     }, 6000);
-
-        // });
 
 
         $( document ).ready(function() {
