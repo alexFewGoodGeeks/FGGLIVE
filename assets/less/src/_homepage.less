@@ -492,3 +492,39 @@ footer{
 .navbar-custom.top-nav-collapse {
     background: white !important; /* Primary color, can be changed via colors.css */
 }
+
+// Mission vission text
+
+.fgg-about{
+    .fgg-text{
+        color: rgba(128,0,0,1);
+        cursor: pointer;
+    }
+
+    a{
+        position: relative;
+        text-decoration: none;
+    }
+
+    a:after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        height: 3px;
+        width: 0;
+        background: transparent;
+    }
+
+    .link:after{
+        transition: width .5s ease, background-color .5s ease, left .5s ease;
+    }
+      
+    .link:hover:after{
+        width: 100%;
+        left: 0;
+        background: rgba(128,0,0,1);
+    }
+}
+

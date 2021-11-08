@@ -151,9 +151,9 @@
     <a class="anchor" id="about"></a>
     <section class="about content-section alt-bg-light">
         <div class="container">
-            <div class="row">
+            <div class="row fgg-about">
                 <div class="col-md-12">
-                    <h2>Happy &amp; excited about FewGoodGeeks</h2>
+                    <h2>Happy &amp; excited about <a class="fgg-text link modalBox" data-toggle="modal" data-target="#modaAboutUs1">FewGoodGeeks</a></h2>
                     <h3 class="caption gray">The essence of our company is an expression of the relationships with our
                         clients. We take care of those relationships by building trust.</h3>
                     <p>We are a geek squad of highly skilled techy individuals with a passion for solving problems.
@@ -170,6 +170,46 @@
             </div>
         </div>
     </section>
+
+
+
+<!-- Happy and excited about FewGoodGeeks MODAL -->
+    <div class="modal fade" id="modaAboutUs1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document" style="width:96%; margin-top:65px; padding-top:0">
+            <div class="col-md-10 modal-content col-md-push-1">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title mod-head-custom" id="myModalLabel">Mission, Vision & Value</h4>
+                </div>
+                
+                <div class="modal-body">
+                    <div class="main_text">
+                        <ul class="works_img_wrapper">
+                            <li>
+                                <h4>Our Mission</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis molestiae sit consequatur rerum fugit nihil eveniet iusto. Quae possimus libero ipsam mollitia obcaecati magnam laboriosam quidem sint nam eius?</p>
+                            </li> 
+
+                            <li>
+                                <h4>Our Vision</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure maxime enim unde consectetur voluptatem dolores dolor, reiciendis rem placeat vel ipsum quo eum illum iste impedit. Culpa ea iure quos!</p>
+                            </li> 
+
+                            <li>
+                                <h4>Our Value</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam possimus adipisci quia ab deserunt, et in voluptates similique, inventore fugiat dolorem enim cumque rerum, pariatur esse magni nihil temporibus?</p>
+                            </li> 
+                        </ul>    
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- EOF MODAL -->
 
 
     <!-- Services Section / What We Do-->

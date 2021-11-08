@@ -357,7 +357,7 @@ footer .contact-address li {
   background-color: black !important;
 }
 .overlay {
-  background-color: rgba(47,47,47,1) !important;
+  background-color: #800000 !important;
   /* Primary color, can be changed via colors.css */
 }
 .logo-left-corner {
@@ -367,6 +367,32 @@ footer .contact-address li {
 .navbar-custom.top-nav-collapse {
   background: white !important;
   /* Primary color, can be changed via colors.css */
+}
+.fgg-about .fgg-text {
+  color: #800000;
+  cursor: pointer;
+}
+.fgg-about a {
+  position: relative;
+  text-decoration: none;
+}
+.fgg-about a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 0;
+  background: transparent;
+}
+.fgg-about .link:after {
+  transition: width 0.5s ease, background-color 0.5s ease, left 0.5s ease;
+}
+.fgg-about .link:hover:after {
+  width: 100%;
+  left: 0;
+  background: #800000;
 }
 .tree-animation {
   margin-top: 60px;
