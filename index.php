@@ -187,12 +187,12 @@
                         <ul class="works_img_wrapper">
                             <li>
                                 <h4>Our Mission</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis molestiae sit consequatur rerum fugit nihil eveniet iusto. Quae possimus libero ipsam mollitia obcaecati magnam laboriosam quidem sint nam eius?</p>
+                                <p>Our mission is to make a technological and social impact globally through the creativity and brilliant minds of our geeks, providing best support and services to our customers.</p>
                             </li> 
 
                             <li>
                                 <h4>Our Vision</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure maxime enim unde consectetur voluptatem dolores dolor, reiciendis rem placeat vel ipsum quo eum illum iste impedit. Culpa ea iure quos!</p>
+                                <p>Using the freedom we have, the mutual trust, our experience, as well as the inexhaustible creativity, to be 1 billion company by providing impeccable customer service.</p>
                             </li> 
 
                             <li>
@@ -337,39 +337,6 @@
                         <h3>Avicenna</h3>
                         <ul class="project-meta">
                             <li><a href="http://www.avicenna4it.com" target="_blank">Visit Website</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="item recent-project">
-                    <span class="logo-box"><img src="assets/images/Partner-logos/adeva-n-sub.png" alt=""
-                            class="img-responsive" id="logo-inside-2"></span>
-                    <div class="project-info">
-                        <h3>Adeva</h3>
-                        <ul class="project-meta">
-                            <li><a href="https://www.adevait.com" target="_blank">Visit Website</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="item recent-project">
-                    <span class="logo-box"><img src="assets/images/Partner-logos/Logo_Inssio.png" alt=""
-                            class="img-responsive" id="logo-inside-2"></span>
-                    <div class="project-info">
-                        <h3>Inssio</h3>
-                        <ul class="project-meta">
-                            <li><a href="http://www.inssio.com" target="_blank">Visit Website</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="item recent-project">
-                    <span class="logo-box"><img src="assets/images/Partner-logos/3pdevelopment.png" alt=""
-                            class="img-responsive" id="logo-inside-2"></span>
-                    <div class="project-info">
-                        <h3>THR3PDevelopment</h3>
-                        <ul class="project-meta">
-                            <li><a href="http://new.3pdevelopment.com/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
