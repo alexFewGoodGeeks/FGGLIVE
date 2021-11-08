@@ -57,7 +57,7 @@
   right: -5%;
 }
 .services {
-  background: url("../images/background_images/CoreValues.jpg");
+  background: url("../images/background_images/CoreValues2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -159,7 +159,6 @@ footer .contact-address li {
 }
 .left-part .text {
   background-color: white;
-  background: rgba(255, 255, 255, 0.5);
   color: #800000;
   font-weight: bolder !important;
   width: 93%;
@@ -194,7 +193,6 @@ footer .contact-address li {
 }
 .left-part-2 .text {
   background-color: white;
-  background: rgba(255, 255, 255, 0.5);
   color: #800000;
   font-weight: bolder !important;
   width: 93%;
@@ -233,7 +231,6 @@ footer .contact-address li {
 }
 .right-part .text {
   background-color: white;
-  background: rgba(255, 255, 255, 0.5);
   color: #800000;
   font-weight: bolder !important;
   width: 93%;
@@ -269,7 +266,6 @@ footer .contact-address li {
 }
 .right-part-2 .text {
   background-color: white;
-  background: rgba(255, 255, 255, 0.5);
   color: #800000;
   font-weight: bolder !important;
   width: 93%;
