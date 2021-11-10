@@ -5,23 +5,23 @@
     <div class="center-div">
         <div class="col-md-12">
             <div id="our-projects" class="carousel theme">
-                <div class="item project-data-item active" data-project-id="1">
-                    <img src="assets/images/background_images/slider1.jpg">
+                <div class="item project-data-item" data-project-id="1">
+                    <img src="assets/images/ProjectGlasses1-border.jpg">
                 </div>
                 <div class="item project-data-item" data-project-id="2">
-                    <img src="assets/images/background_images/slider1.jpg">
+                    <img src="assets/images/ProjectGlasses2-border.jpg">
                 </div>
                 <div class="item project-data-item" data-project-id="3">
-                    <img src="assets/images/background_images/slider1.jpg">
+                    <img src="assets/images/ProjectGlasses3-border.jpg">
                 </div>
                 <div class="item project-data-item">
-                    <img src="assets/images/background_images/slider1.jpg">
+                    <img src="assets/images/ProjectGlasses1-border.jpg">
                 </div>
                 <div class="item">
-                    <img src="assets/images/background_images/slider1.jpg">
+                    <img src="assets/images/ProjectGlasses2-border.jpg">
                 </div>
                 <div class="item">
-                    <img src="assets/images/background_images/slider1.jpg">
+                    <img src="assets/images/ProjectGlasses3-border.jpg">
                 </div>
             </div>
         </div>

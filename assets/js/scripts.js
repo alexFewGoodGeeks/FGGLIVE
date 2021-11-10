@@ -72,15 +72,15 @@ $(window).scroll(function () {
 $(".project-data-item").click(function() {
   var currentProjectId = $(this).data('project-id');
 
-  if($(this).hasClass("item-active")){
-    $(this).removeClass("item-active")
+  if($(this).hasClass("active")){
+    $(this).removeClass("active")
     $(".project-item-wrapper").removeClass("sliderSlideDown");
     $(".project-item-wrapper").addClass("hide");
   }
 
   else{
-    $(".project-data-item").removeClass("item-active");
-    $(this).addClass("item-active");
+    $(".project-data-item").removeClass("active");
+    $(this).addClass("active");
 
     $(".project-item-wrapper").addClass("hide");
   
