@@ -353,8 +353,8 @@ footer .contact-address li {
   background-color: black !important;
 }
 .overlay {
-  background-color: #800000 !important;
-  /* Primary color, can be changed via colors.css */
+  /* background-color: #800000 !important; */
+  /* Primary color, can be changed via colors.css */  
 }
 .logo-left-corner {
   width: 173px;
