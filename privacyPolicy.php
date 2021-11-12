@@ -63,9 +63,11 @@
 
 <!-- Logo -->
 <div class="text-center" style="padding:10px;">
-    <img src="assets/images/logo-black.png"
-    onerror="this.src='assets/images/FGGLogoMain.png'; this.onerror=null;"
-    alt="GEEKS provide a universal FIX, everything we touch simply CLICKS."/>
+    <a href="index.php">
+        <img src="assets/images/logo-black.png"
+        onerror="this.src='assets/images/FGGLogoMain.png'; this.onerror=null;"
+        alt="GEEKS provide a universal FIX, everything we touch simply CLICKS."/>
+    </a>
 </div>
 
 <!-- About Section -->
