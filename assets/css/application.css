@@ -353,8 +353,8 @@ footer .contact-address li {
   background-color: black !important;
 }
 .overlay {
-  /* background-color: #800000 !important; */
-  /* Primary color, can be changed via colors.css */  
+  background-color: #800000 !important;
+  /* Primary color, can be changed via colors.css */
 }
 .logo-left-corner {
   width: 173px;
@@ -389,6 +389,9 @@ footer .contact-address li {
   width: 100%;
   left: 0;
   background: #800000;
+}
+.footerLink {
+  color: #800000;
 }
 .tree-animation {
   margin-top: 60px;

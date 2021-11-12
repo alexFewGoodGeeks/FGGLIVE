@@ -400,15 +400,26 @@
 
                         <div class="pull-left col-md-12 col-sm-12 col-xs-12">
                             <h3 style="color: black; margin-bottom: 0;"><b>Address</b></h3>
-                            <h3>Metsälinnunreitti 2, J097,
-                                <br />02660, Espoo
-                                <br />Finland
-                            </h3>
+                            <a href="https://www.google.com/maps/place/Mets%C3%A4linnunreitti+2+j097,+02660+Espoo,+Finland/@60.2367682,24.8193208,17z/data=!3m1!4b1!4m5!3m4!1s0x468df65fbe4a8381:0x1da0412a12536bb2!8m2!3d60.2367682!4d24.8215095">
+                                <h3>Metsälinnunreitti 2, J097,
+                                    <br />02660, Espoo
+                                    <br />Finland
+                                </h3>
+                            </a>
+
+
+                            <a href="https://www.google.com/maps/place/Leninova+17,+Skopje+1000/data=!4m2!3m1!1s0x1354144d0e7e971d:0xcaf1dc7648743113?sa=X&ved=2ahUKEwjW-cqf1JL0AhWlgv0HHdTTC0YQ8gF6BAgIEAE">
+                                <h3>Leninova 17,
+                                    <br />Skopje, Macedonia
+                                </h3>
+                            </a>
                         </div>
 
                         <div class="col-md-12 col-sm-12 col-xs-12 contact-address">
                             <h3 style="color: black; margin-bottom: 0;"><b>Email</b></h3>
-                            <h3>contact@fewgoodgeeks.com</h3>
+                            <a href="mailto:contact@fewgoodgeeks.com">
+                                <h3>contact@fewgoodgeeks.com</h3>
+                            </a>
                         </div>
 
                         <div class="col-md-12 col-sm-12 col-xs-12 contact-address">
@@ -418,12 +429,12 @@
 
                         <div class="footer-content-social">
                             <h4>Stay Connected:</h4>
-                            <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
+                            <a href="https://www.facebook.com/FewGoodGeeks" target="_blank" style="color:rgba(128,0,0,1);"><i
                                     class="fa fa-facebook-square fa-2x"></i></a>
-                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:#4267b2;"><i
+                            <a href="https://www.twitter.com/FewGoodGeeks" target="_blank" style="color:rgba(128,0,0,1);"><i
                                     class="fa fa-twitter-square fa-2x"></i></a>
                             <a href="https://www.linkedin.com/company/fewgoodgeeks-oy" target="_blank"
-                                style="color:#0077b7;"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                style="color:rgba(128,0,0,1);"><i class="fa fa-linkedin-square fa-2x"></i></a>
                         </div>
                         
                     </div>
@@ -469,7 +480,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center" style="color: rgba(128,0,0,1);">
-                        &copy; 2021 FewGoodGeeks. All rights reserved.
+                        &copy; 2021 FewGoodGeeks. All rights reserved. | 
+                        <a href="privacyPolicy.php" class="footerLink" target="_blank">Privacy Policy</a> |
+                        <a href="gdpr.php" class="footerLink" target="_blank">GDPR</a>
                     </div>
                 </div>
             </div>
