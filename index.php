@@ -235,49 +235,38 @@
                         <h3 class="why-work"><b>Why Work With Us</b></h3>
                     </div>
 
-                    <div class="col-md-4 product-item text-center">
-
-                        <span class="icon"><img src="assets/images/geek_icons/Trust.png" alt=""> </span>
-
+                    <div class="col-md-12 product-item">
+                        <div class="media-left">
+                            <span class="icon"><img src="assets/images/geek_icons/Trust.png" alt=""> </span>
+                        </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><b>TRUST</b></h3>
-                            <p>Trust is a premier core value that our geeky gang is abidingly and unambiguously
-                                dedicated to.
-                                <!-- Establishing trustworthy relationships is a long and laborious process
-                                that cannot be circumvented, there is no shortcut, no alternative way. We truly strive
-                                to stay completely honest, committed and deliverable to our collaborating partners. The
-                                feeling that your fellow Geek will never let you down is impeccable. Therefore, we are
-                                constantly seeking to provide such a privilege.-->
-                            </p>
+                            <h3 class="media-heading"><b>INTEGRITY</b></h3>
+                            <p>Integrity creates <b>trust</b>. This is our most valuable asset. Establishing trustworthy <b>relationships</b> is a long and laborious process that cannot be circumvented, there is no shortcut, no alternative way. We truly strive to stay completely <b>honest</b>, committed and deliverable to our collaborating partners. The feeling that your fellow Geek will <b>never let you down</b> is impeccable. Therefore, we are constantly seeking to provide such a privilege.</p>
                         </div>
                     </div>
 
-                    <div class="col-md-4 product-item text-center">
-
-                        <span class="icon"><img src="assets/images/geek_icons/Experience.png" alt="">
-                        </span>
-
+                    <div class="col-md-12 product-item">
+                        <div class="media-left">
+                            <span class="icon"><img src="assets/images/geek_icons/Experience.png" alt="">
+                            </span>
+                        </div>
                         <div class="media-body">
                             <h3 class="media-heading"><b>EXPERIENCE</b></h3>
-                            <p>Accomplished and senior consultants in various niche technologies with an <b>“Exceed
-                                    Expectations”</b> mentality.</p>
+                            <p>Work experience and <b>innovation</b> in our work motivates us to <b>take risks</b>, encourage <b>curiosity</b> and new ideas, <b>learn</b> from mistakes, and constantly strive to <b>exceed expectations</b>. This is the only way to <b>deliver</b> impeccable service and added <b>value</b> to our customers.</p>
                         </div>
                     </div>
 
-                    <div class="col-md-4 product-item text-center">
-
-                        <span class="icon"><img src="assets/images/geek_icons/Delivery.png" alt="">
-                        </span>
-
+                    <div class="col-md-12 product-item">
+                        <div class="media-left">
+                            <span class="icon"><img src="assets/images/geek_icons/Delivery.png" alt="">
+                            </span>
+                        </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><b>DELIVERY</b></h3>
-                            <p>Our <b>Geeks</b> are trained for <b>excellence</b> and committed to deliverying great
-                                work.</p>
+                            <h3 class="media-heading"><b>OWNERSHIP MENTALITY</b></h3>
+                            <p>We know that we must earn mutual <b>trust</b>, by open <b>communication</b>, being <b>objective</b> and enjoying in our success that promotes heathy <b>accountability</b> and <b>teamwork</b>. Our geeks can make decisions and they are encouraged to take <b>ownership</b> for the quality and success of the outcome of their work.</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
         <hr style="height:2px;border:none;color:rgba(128,0,0,1);background-color:rgba(128,0,0,1)">
