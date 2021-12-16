@@ -517,6 +517,15 @@ blockquote span{
     height:200px; 
 }
 
+.face-port{
+    position: absolute;
+    bottom: -350px;
+    left: 343px;
+}
+
+#dariaS {
+    background: url(../images/team_portraits/daria2.png) no-repeat center center;
+}
 #alexM {
     background: url(../images/team_portraits/alexM_BG.png) no-repeat center center;
 }
@@ -545,8 +554,9 @@ blockquote span{
 
 .team_item{
     background-color: rgba(239, 239, 239, 0.8);
-    padding: 15px 20px 20px;
-    margin: 15px 0;
+    /* padding: 15px 20px 20px; */
+    /* margin: 15px 0; */
+    width: 160px;
     position: relative;
     color: #fff;
     overflow: hidden;
@@ -559,7 +569,7 @@ blockquote span{
 .team_item h4{
     margin: 10px 0 0 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     -webkit-transition: all .5s ease-in-out;
        -moz-transition: all .5s ease-in-out;

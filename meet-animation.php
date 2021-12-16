@@ -1,5 +1,6 @@
 </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
+
 <div class="tree-animation">
     <!-- Left Part Of The Tree -->
     <div class="col-md-4 left-part-tree all">
@@ -12,7 +13,21 @@
                 <!-- <div class="line1-2" style="position: absolute; right: 56px; bottom: 79px;  transform: rotate(110deg);border-left: 4px solid #800000; height: 0px;z-index:-10;"></div> -->
                 <div class="line1-2"></div>
                 <div class="point1-3 treeitem"></div>
-                <div class="line1-4 treeitem"></div>
+                
+                <div class="line1-4 treeitem">
+                    
+                <div class="col-md-4 col-md-push-2">
+                    <div class="row team_item text-center">
+                        <div class="team_outer" id="alexM">
+                            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AlexM.svg"></object>
+                        </div>
+                        <h4>ALEX MISHACHKOVSKI</h4>
+                        <p>CSO</p>
+                    </div>
+                </div>
+
+                </div>
+
                 <div class="line1-5 treeitem"></div>
                 <div class="point1-5 treeitem"></div>
                 <div class="line1-6 treeitem"></div>
@@ -68,4 +83,22 @@
         </div>
     </div>
 </div>
+
 </br></br></br></br></br></br>
+
+
+<!-- <div class="col-md-4 col-md-push-2 face-port">
+    <div class="row team_item text-center">
+        <div class="team_outer" id="dariaS">
+            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/daria2_animated.svg"></object>
+        </div>
+        <h4>DARIA STEFANOVSKA</h4>
+        <p>WEB DESIGNER</p>
+    </div>
+</div> -->
+
+
+
+
+
+  

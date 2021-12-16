@@ -351,7 +351,7 @@
                                 $(".point1-4").show(500)
 
 
-                                    $(".line1-2").animate({width: "100px"}, 500, "linear", function() {
+                                    $(".line1-2").animate({width: "170px"}, 500, "linear", function() {
                                         $(".point1-3").show("fast", function() {
                                             $(".line1-4").show("slide", { direction: "down" }, 500, function() {
                                                 $(".line1-5").show(500)
