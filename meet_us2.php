@@ -368,8 +368,8 @@
 				}); // eof .main4
 
                 $(".main3").show("slide", { direction: "left" }, 500, function() {
-                    $(".line3-2").animate({width: "100px"}, 500, "linear", function(){
-                            $(".line3-3").animate({width: "100px"}, 500, "linear", function(){
+                    $(".line3-2").animate({width: "132px"}, 500, "linear", function(){
+                            $(".line3-3").animate({width: "140px"}, 500, "linear", function(){
                             $(".point3-3").show(600)
                             $(".point3-4").show(600)
                             $(".line3-4").show(600)
@@ -393,10 +393,10 @@
 	function start_middle(){
 		$(".line2-1").show("slide", { direction: "down" }, 500, function() {
 				$(".point2-2").show();
-				$(".line2-2").animate({width: "100px", color: "yellow"}, 500, "linear", function() {
+				$(".line2-2").animate({width: "141px", color: "yellow"}, 500, "linear", function() {
 					$(".point2-3").show();
 					$(".line2-4").show("slide", { direction: "down" }, 500, function() {
-                        $(".line2-5").animate({width: "100px", color: "red"}, 500, "linear", function() {
+                        $(".line2-5").animate({width: "147px", color: "red"}, 500, "linear", function() {
                             $(".point2-4").show();
                             $(".point2-5").show();
                             $(".line2-6").show("slide", { direction: "down"}, 500, function(){
