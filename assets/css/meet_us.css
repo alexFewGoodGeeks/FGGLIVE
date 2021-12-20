@@ -524,19 +524,31 @@ blockquote span{
 }
 
 #dariaS {
-    background: url(../images/team_portraits/daria2.png) no-repeat center center;
+    background: url(../images/team_portraits/DariaS.png) no-repeat center center;
 }
+
+#vaneG {
+    background: url(../images/team_portraits/vane.png) no-repeat center center;
+}
+
 #inesJ {
-    background: url(../images/team_portraits/ines.png) no-repeat center center;
+    background: url(../images/team_portraits/InesJ.png) no-repeat center center;
 }
+
 #marjanaM {
-    background: url(../images/team_portraits/marjana.png) no-repeat center center;
+    background: url(../images/team_portraits/MarjanaM.png) no-repeat center center;
 }
+
 #alexM {
-    background: url(../images/team_portraits/alexM_BG.png) no-repeat center center;
+    background: url(../images/team_portraits/AlexM.png) no-repeat center center;
 }
+
 #igorV {
-    background: url(../images/team_portraits/igorV_BG.png) no-repeat center center;
+    background: url(../images/team_portraits/IgorV.png) no-repeat center center;
+}
+
+#hristijanS {
+    background: url(../images/team_portraits/HristijanS.png) no-repeat center center;
 }
 
 .team_item:before {

@@ -368,7 +368,7 @@
 				}); // eof .main4
 
                 $(".main3").show("slide", { direction: "left" }, 500, function() {
-                    $(".line3-2").animate({width: "132px"}, 500, "linear", function(){
+                    $(".line3-2").animate({width: "178px"}, 500, "linear", function(){
                             $(".line3-3").animate({width: "140px"}, 500, "linear", function(){
                             $(".point3-3").show(600)
                             $(".point3-4").show(600)

@@ -12,7 +12,7 @@
                 <div class="col-md-4 col-md-push-2">
                     <div class="row team_item text-center">
                         <div class="team_outer" id="dariaS">
-                            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/daria2_animated.svg"></object>
+                            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/DariaS_animated.svg"></object>
                         </div>
                         <h4>DARIA STEFANOVSKA</h4>
                         <p>WEB DESIGNER</p>
@@ -28,26 +28,26 @@
                 
                 <div class="line1-4 treeitem">
                     
-                <div class="col-md-4 col-md-push-2">
-                    <div class="row team_item text-center">
-                        <div class="team_outer" id="marjanaM">
-                            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/marjana_animated.svg"></object>
+                    <div class="col-md-4 col-md-push-2">
+                        <div class="row team_item text-center">
+                            <div class="team_outer" id="marjanaM">
+                                <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/MarjanaM_animated.svg"></object>
+                            </div>
+                            <h4>MARJANA MISHACHKOVSKA</h4>
+                            <p>DESIGNER</p>
                         </div>
-                        <h4>MARJANA MISHACHKOVSKA</h4>
-                        <p>DESIGNER</p>
                     </div>
-                </div>
 
                 </div>
 
                 <div class="line1-5 treeitem"></div>
                 <div class="point1-5 treeitem"></div>
                 <div class="line1-6 treeitem">
-                    <div class="col-md-4 col-md-push-2">
 
+                    <div class="col-md-4 col-md-push-2">
                         <div class="row team_item text-center">
                             <div class="team_outer" id="inesJ">
-                                <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/ines_animated.svg"></object>
+                                <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/InesJ_animated.svg"></object>
                             </div>
                             <h4>INES JANESH</h4>
                             <p>QA TESTER</p>
@@ -71,6 +71,7 @@
             <div class="dot-3"></div>
         </div>
         <div class="main4 treeitem"></div>
+
         <div class="point1-1 treeitem">
             <div class="line2-1 treeitem"></div>
             <div class="point2-2 treeitem"></div>
@@ -102,7 +103,17 @@
                 <div class="point3-3 treeitem"></div>
                 <div class="point3-4 treeitem"></div>
                 <div class="line3-4 treeitem"></div>
-                <div class="line3-5 treeitem"></div>
+                <div class="line3-5 treeitem">
+                    <div class="col-md-4 col-md-push-2">
+                        <div class="row team_item text-center">
+                            <div class="team_outer" id="hristijanS">
+                                <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/HristijanS_animated.svg"></object>
+                            </div>
+                            <h4>HRISTIJAN STOJANOSKI</h4>
+                            <p>SENIOR PHP DEVELOPER</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -111,18 +122,3 @@
 </br></br></br></br></br></br>
 
 
-<!-- <div class="col-md-4 col-md-push-2 face-port">
-    <div class="row team_item text-center">
-        <div class="team_outer" id="dariaS">
-            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/daria2_animated.svg"></object>
-        </div>
-        <h4>DARIA STEFANOVSKA</h4>
-        <p>WEB DESIGNER</p>
-    </div>
-</div> -->
-
-
-
-
-
-  

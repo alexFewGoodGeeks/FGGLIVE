@@ -414,7 +414,7 @@ footer .contact-address li {
   right: 92px;
   position: absolute;
   bottom: 31px;
-  right: 0px;
+  right: 59px;
   background-color: #800000;
 }
 .tree-animation .all .main1 .point1-1 {
@@ -573,6 +573,7 @@ footer .contact-address li {
   background-color: #800000;
   position: absolute;
   top: -25px;
+  left: -60px;
 }
 .tree-animation .center-part-tree .main4 {
   width: 50%;
@@ -663,7 +664,6 @@ footer .contact-address li {
   position: absolute;
   bottom: 117px;
   right: 165px;
-  z-index: -10;
 }
 .tree-animation .center-part-tree .point1-1 .line2-6 {
   height: 150px;
@@ -700,8 +700,7 @@ footer .contact-address li {
   position: absolute;
   bottom: 5px;
   /* right: 676px; */
-  background-color: white;
-  z-index: -100;
+  background-color: #800000;
   left: 15px;
 }
 .tree-animation .right-part-tree .main3 .point3-1 {
@@ -768,7 +767,7 @@ footer .contact-address li {
   border-radius: 50%;
   margin-top: -10px;
   bottom: 111px;
-  right: 136px;
+  right: 168px;
   position: absolute;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .point3-4 {
@@ -796,8 +795,12 @@ footer .contact-address li {
   background-color: #800000;
   position: absolute;
   bottom: 127px;
-  left: -128px;
-  z-index: -10;
+  left: -160px;
+}
+.tree-animation .right-part-tree .main3 .point3-1 .line3-5 .team_item {
+  position: absolute;
+  bottom: 4px;
+  left: -63px;
 }
 .fade-in-line {
   transition: all 3s ease-in-out;
