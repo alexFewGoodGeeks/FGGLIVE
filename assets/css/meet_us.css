@@ -528,7 +528,11 @@ blockquote span{
 }
 
 #vaneG {
-    background: url(../images/team_portraits/vane.png) no-repeat center center;
+    background: url(../images/team_portraits/VaneG.png) no-repeat center center;
+}
+
+#aleksandarG {
+    background: url(../images/team_portraits/AleksandarG.png) no-repeat center center;
 }
 
 #inesJ {

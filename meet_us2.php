@@ -166,7 +166,7 @@
                         Geeks are the driving force of our company whose primary motto is <span>Maximum Effort</span>.
                         They are the electrical impulses that surge through its synapses and across its neural network.
                         They are the fusion reaction inside a living star. They are us. <span>WE are the Geeks!</span>
-                        <img src="assets/images/meet-us-ants.png" class="ant-img1 ant-img" alt="ant">
+                        <!-- <img src="assets/images/meet-us-ants.png" class="ant-img1 ant-img" alt="ant"> -->
                     </h3>
                 </div>
             </div>
@@ -368,8 +368,8 @@
 				}); // eof .main4
 
                 $(".main3").show("slide", { direction: "left" }, 500, function() {
-                    $(".line3-2").animate({width: "178px"}, 500, "linear", function(){
-                            $(".line3-3").animate({width: "140px"}, 500, "linear", function(){
+                    $(".line3-2").animate({width: "180px"}, 500, "linear", function(){
+                            $(".line3-3").animate({width: "170px"}, 500, "linear", function(){
                             $(".point3-3").show(600)
                             $(".point3-4").show(600)
                             $(".line3-4").show(600)

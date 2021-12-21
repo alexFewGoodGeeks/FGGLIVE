@@ -435,7 +435,7 @@ a.anchor{
 .overlay {
     position: fixed;
     display: block; 
-    background-color: rgba(128,0,0,1); /* Primary color, can be changed via colors.css */
+    background-color: rgba(47,47,47,1); /* Primary color, can be changed via colors.css */
     background-image: url(../images/background_images/logo-bckround-black-50.png);
     background-position:center;
     background-repeat:no-repeat;

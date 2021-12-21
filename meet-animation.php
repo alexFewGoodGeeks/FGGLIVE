@@ -1,4 +1,4 @@
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
 
 <div class="tree-animation">
@@ -95,14 +95,34 @@
         <hr class="right-line line-obj-right">
         <div class="main3 treeitem">
             <div class="point3-1 treeitem">
-                <div class="line3-1 treeitem"></div>
+                <div class="line3-1 treeitem">
+                    <div class="col-md-4 col-md-push-2">
+                        <div class="row team_item text-center">
+                            <div class="team_outer" id="vaneG">
+                                <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/VaneG_animated.svg"></object>
+                            </div>
+                            <h4>VANE GJORGJIEV</h4>
+                            <p>DEVELOPER</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="point3-2 treeitem"></div>
                 <div class="point3-5 treeitem"></div>
                 <div class="line3-2"></div>
                 <div class="line3-3"></div>
                 <div class="point3-3 treeitem"></div>
                 <div class="point3-4 treeitem"></div>
-                <div class="line3-4 treeitem"></div>
+                <div class="line3-4 treeitem">
+                    <div class="col-md-4 col-md-push-2">
+                        <div class="row team_item text-center">
+                            <div class="team_outer" id="aleksandarG">
+                                <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/AleksandarG_animated.svg"></object>
+                            </div>
+                            <h4>ALEKSANDAR GJORGJIEV</h4>
+                            <p>DEVELOPER</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="line3-5 treeitem">
                     <div class="col-md-4 col-md-push-2">
                         <div class="row team_item text-center">
@@ -119,6 +139,6 @@
     </div>
 </div>
 
-</br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br>
 
 

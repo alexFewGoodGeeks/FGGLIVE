@@ -576,12 +576,12 @@ footer .contact-address li {
   left: -60px;
 }
 .tree-animation .center-part-tree .main4 {
-  width: 50%;
+  width: 58%;
   height: 4px;
   background-color: #800000;
   position: absolute;
   top: 1px;
-  right: -149px;
+  right: -206px;
   z-index: -10;
 }
 .tree-animation .center-part-tree .animation-img {
@@ -712,16 +712,20 @@ footer .contact-address li {
   bottom: -6px;
   /* right: -39px; */
   position: absolute;
-  left: 120px;
+  left: 187px;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .line3-1 {
-  height: 510px;
+  height: 343px;
   width: 4px;
   background-color: #800000;
   position: absolute;
   bottom: 0;
   left: 9px;
-  z-index: -10;
+}
+.tree-animation .right-part-tree .main3 .point3-1 .line3-1 .team_item {
+  position: absolute;
+  bottom: 4px;
+  left: -65px;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .point3-2 {
   height: 20px;
@@ -754,7 +758,7 @@ footer .contact-address li {
 }
 .tree-animation .right-part-tree .main3 .point3-1 .line3-3 {
   position: absolute;
-  right: -132px;
+  right: -159px;
   bottom: 213px;
   border-top: 4px solid #800000;
   width: 0px;
@@ -767,7 +771,7 @@ footer .contact-address li {
   border-radius: 50%;
   margin-top: -10px;
   bottom: 111px;
-  right: 168px;
+  right: 172px;
   position: absolute;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .point3-4 {
@@ -777,7 +781,7 @@ footer .contact-address li {
   border-radius: 50%;
   margin-top: -10px;
   bottom: 205px;
-  right: -140px;
+  right: -166px;
   position: absolute;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .line3-4 {
@@ -786,8 +790,12 @@ footer .contact-address li {
   background-color: #800000;
   position: absolute;
   bottom: 214px;
-  left: 148px;
-  z-index: -10;
+  left: 175px;
+}
+.tree-animation .right-part-tree .main3 .point3-1 .line3-4 .team_item {
+  position: absolute;
+  bottom: 4px;
+  left: -59px;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .line3-5 {
   height: 230px;
@@ -795,7 +803,7 @@ footer .contact-address li {
   background-color: #800000;
   position: absolute;
   bottom: 127px;
-  left: -160px;
+  left: -165px;
 }
 .tree-animation .right-part-tree .main3 .point3-1 .line3-5 .team_item {
   position: absolute;
