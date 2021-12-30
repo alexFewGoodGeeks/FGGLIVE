@@ -78,7 +78,17 @@
             <div class="line2-2"></div>
             <div class="point2-3 treeitem"></div>
             <div class="point2-5 treeitem"></div>
-            <div class="line2-4 treeitem"></div>
+            <div class="line2-4 treeitem">
+                <div class="col-md-4 col-md-push-2">
+                    <div class="row team_item text-center">
+                        <div class="team_outer" id="draganJ">
+                            <object class="svg-portrait" type="image/svg+xml" data="assets/images/team_portraits/DraganJ_animated.svg"></object>
+                        </div>
+                        <h4>DRAGAN JANDRESKI</h4>
+                        <p>SENIOR SOFTWARE DEVELOPER</p>
+                    </div>
+                </div>
+            </div>
             <div class="line2-5"></div>
             <div class="point2-4 treeitem"></div>
             <div class="line2-6 treeitem"></div>

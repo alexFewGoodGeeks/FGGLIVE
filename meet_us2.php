@@ -393,7 +393,7 @@
 	function start_middle(){
 		$(".line2-1").show("slide", { direction: "down" }, 500, function() {
 				$(".point2-2").show();
-				$(".line2-2").animate({width: "141px", color: "yellow"}, 500, "linear", function() {
+				$(".line2-2").animate({width: "180px", color: "yellow"}, 500, "linear", function() {
 					$(".point2-3").show();
 					$(".line2-4").show("slide", { direction: "down" }, 500, function() {
                         $(".line2-5").animate({width: "147px", color: "red"}, 500, "linear", function() {
